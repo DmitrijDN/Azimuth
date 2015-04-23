@@ -1,0 +1,40 @@
+﻿<div id="audio-player">
+    <div id="audio-player-buttons">
+        <div id="prev-button"><i class="fa fa-backward"></i></div>
+        <div id="play-button"><i class="fa fa-play"></i><i class="fa fa-pause hide"></i></div>
+        <div id="next-button"><i class="fa fa-forward"></i></div>
+    </div>
+    <div id="item-container">
+        <div class="track-description">
+            <div class="track-info" data-toggle="modal" data-target="#infoModal"><a id="track-link" href="#" style="display: none;"><span class="track-artist"></span> - <span class="track-title"></span></a></div>
+            <div class="track-remaining"></div>
+        </div>
+        <div id="progress-bar" style="overflow: hidden;">
+            <div id="progress-current" class="light-orange"></div>
+            <div class="progress-background"></div>
+            <div class="progress-cache"></div>
+            <div id="progress-move" class="dark-orange"></div>
+        </div>
+    </div>
+    <div id="volume-container">
+        <div class="vertical-wrapper">
+            <div class="vertical-wrapper-cell">
+                <div>
+                    <i class="fa fa-volume-up volume-img"></i>
+                    <i class="fa fa-volume-down volume-img" style="display: none;"></i>
+                    <i class="fa fa-volume-off volume-img" style="display: none;"></i>
+                    <div id="slider-wrapper">
+                        <div id="volumeSlider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="audio-player-controls">
+        <div id="plus-btn">
+            <a href="#" class="fa fa-plus" rel="popover" style="text-decoration: none;"></a>
+        </div>
+        <div id="shuffle-btn"><i class="fa fa-random"></i></div>
+        <div id="repeat-btn"><i class="fa fa-repeat"></i></div>
+    </div>
+</div>

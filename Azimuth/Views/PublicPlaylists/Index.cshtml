@@ -1,0 +1,285 @@
+﻿@model Azimuth.DataAccess.Entities.User
+
+@section styles {
+    @Styles.Render("~/Content/PublicPlaylists.css")
+}
+
+@{
+    ViewBag.Title = "Public playlists";
+    var loggedUserId = ViewBag.Id;
+}
+
+<div id="playlist-spinner" class="spinner loader"></div>
+
+<div style="height:100%">
+    <div id="playlistsArea" style="height:100%">
+        <div id="genres" class="col-md-3">
+            <ul id="genres-list" class="nav nav-pills nav-stacked" style="margin-left: 20px;"></ul>
+        </div>
+        <div id="playlists-plated" class="col-md-9" style="height:100%">
+            @if (Request.IsAuthenticated)
+            {
+                Html.RenderAction("_PublicPlaylists", "PublicPlaylists", new { Model.PlaylistFollowing, ViewBag.Id, ViewBag.Genre });
+            }
+            else
+            {
+                Html.RenderAction("_PublicPlaylists", "PublicPlaylists", new { ViewBag.Genre});
+            }
+        </div>
+    </div>
+    <div id="progressSlider" style="display: none"></div>
+    <div id="tracksArea" style="display: none; margin-top:10px"></div>
+
+    <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Track info</h4>
+                </div>
+                <div id="trackInfo-spinner" class="spinner loader"></div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" id="closeModalBtn" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="createPlaylistModal" tabindex="-1" role="dialog" aria-labelledby="createPlaylistModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Enter Playlist Name For Selected Tracks</h4>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="form-control" id="playlistNameToCreate" placeholder="Enter Playlist Name" />
+                    <select class="form-control" id="newPlaylistAccessibility">
+                        <option value="Public">Public</option>
+                        <option value="Private">Private</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" id="okPlaylistCreateModalBtn" data-dimiss="modal">OK</button>
+                    <button type="button" class="btn btn-default" id="cancelModalBtn" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="userPlaylists" style="display: none"></div>
+<div id="playlistsTable" style="display: none;"></div>
+<div class="itemsContainer tableRow" id="itemsContainer"></div>
+
+@section scripts{
+    
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
+    <script type="text/javascript" src="../../Scripts/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/audioManager.js"></script>
+    <script type="text/javascript" src="../../Scripts/dragndrop.js"></script>
+    <script type="text/javascript" src="../../Scripts/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/sliderController.js"></script>
+    <script type="text/javascript" src="../../Scripts/contextMenu.js"></script>
+    <script type="text/javascript" src="../../Scripts/progressBar.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            var self = this;
+
+            $('#playlists-plated').mCustomScrollbar({
+                theme: 'dark-3',
+                scrollButtons: { enable: true },
+                updateOnContentResize: true,
+                scrollInertia: 0,
+                autoHideScrollbar: true,
+                advanced: { updateOnSelectorChange: "true" }
+            });
+
+            this._saveTrackFromVkToPlaylist = function($currentItem, index, playlistId) {
+                var tracks = [];
+
+                var currentPlaylist = $('.playlist .playlistId:contains(' + playlistId + ')').parent('.playlist');
+                if (currentPlaylist.find('.readonly').text() == 'true')
+                    return;
+                $currentItem.children().toggleClass('vk-item', false);
+                $currentItem.children('.tableRow').each(function() {
+                    tracks.push({
+                        ThirdPartId: $(this).closest('.tableRow').find('.thirdPartId').text(),
+                        OwnerId: $(this).closest('.tableRow').find('.ownerId').text()
+                    });
+                }).get();
+                $currentItem.empty();
+                $.ajax({
+                    url: '/api/usertracks?provider=Vkontakte&index=' + index,
+                    type: 'POST',
+                    data: JSON.stringify({
+                        "PlaylistId": playlistId,
+                        "TrackInfos": tracks
+                    }),
+                    contentType: 'application/json'
+                });
+            };
+
+            $('#closeModalBtn').click(function() {
+                $('#infoModal .modal-body').text('');
+                $('#listenTopBtn').attr('disabled', true);
+            });
+
+            $.ajax({
+                url: '/api/playlists/genres?id=@loggedUserId',
+                type: 'GET',
+                dataType: 'json',
+                success: function (genres) {
+                    var $genresList = $('#genres > #genres-list');
+                    $genresList.append($('<li><a href="#" class="genre">All</a></li>'));
+                    for (var i = 0; i < genres.length; i++) {
+                        if (genres[i].toLowerCase() !== 'undefined' && genres[i].toLowerCase() !== 'other') {
+                            var $item = $('<li><a href="#" class="genre">' + genres[i] + '</a></li>');
+                            $('#genres > #genres-list').append($item);
+                        }
+                    }
+                    var genresList = $('.genre');
+                    genresList.click(function (event) {
+                        genresList.toggleClass('selected', false);
+                        $(this).toggleClass('selected', true);
+                        var genre = $(this).text();
+                        var playlistTiles = $('.playlist-plated');
+                        if (genre === 'All') {
+                            playlistTiles.fadeIn();
+                        } else {
+                            playlistTiles.hide();
+                            playlistTiles.filter(function (index, item) {
+                                return $(item).data('genres').indexOf(genre) > -1;
+                            }).fadeIn();
+                        }
+                    });
+                }
+            });
+
+            var volumeSlider = new SliderController({
+                sliderSelector: '#volumeSlider',
+                sliderBarClass: 'volumeBar',
+                sliderClass: 'volume',
+                dirrection: 'horizontall'
+            });
+            this.progressBar = new ProgressBar();
+            self.progressBar.bindListeners();
+
+            this.audioManager = new AudioManager(volumeSlider, self.progressBar);
+
+            var ctxMenu = new ContextMenu();
+            var contextMenuActions = [
+                { id: 'savevktrack', name: 'Move to', isNewSection: true, hasSubMenu: true, needSelectedItems: true },
+                { id: 'createplaylist', name: 'Create new playlist', isNewSection: false, hasSubMenu: false, needSelectedItems: true }
+            ];
+
+            ctxMenu.initializeContextMenu(-1, contextMenuActions, this, self);
+
+            $(document).off('mousedown', '.track').on('mousedown', '.track', function(event) {
+                var $contextMenu = $('.contextMenu');
+                var $target = $(event.target).parents('.track');
+                if (event.which == 3) {
+                    $target.toggleClass('draggable-item-selected', true);
+                    ctxMenu.drawContextMenu(event);
+                } else if (event.which == 1) {
+                    if ($contextMenu.is(':visible')) {
+                        $contextMenu.hide();
+                    }
+
+                    var $currentItem = $target;
+                    if (event.ctrlKey) {
+                        if ($currentItem.hasClass('draggable-item-selected')) {
+                            $currentItem.toggleClass('draggable-item-selected', false);
+                        } else {
+                            $currentItem.toggleClass('draggable-item-selected', true);
+                        }
+                    } else if (event.shiftKey) {
+                        var indexFirst = -1;
+                        var indexLast = -1;
+                        if ($('.draggable-item-selected').last().index() < $currentItem.index()) {
+                            indexFirst = $('.draggable-item-selected').last().index();
+                            indexLast = $currentItem.index();
+                        } else {
+                            indexFirst = $currentItem.index();
+                            indexLast = $('.draggable-item-selected').last().index();
+                        }
+
+                        var currentChildren = $currentItem.parent().children();
+
+                        for (i = indexFirst; i <= indexLast; i++) {
+                            var $currentChild = $(currentChildren[i]);
+                            if (!$currentChild.hasClass('draggable-item-selected')) {
+                                $currentChild.toggleClass('draggable-item-selected', true);
+                            }
+                        }
+                    } else {
+                        $('.draggable-item-selected').toggleClass('draggable-item-selected', false);
+                        $currentItem.toggleClass('draggable-item-selected', true);
+                    }
+                }
+            });
+
+            $(document).on('mousedown', function(event) {
+                var $target = $(event.target);
+                var $contextMenu = $('.contextMenu');
+                if ($target.parents('.track').length == 0 && !$target.hasClass('track')) {
+                    if ($contextMenu.is(':visible')) {
+                        $contextMenu.hide();
+                    }
+                    document.oncontextmenu = function() {
+                        return true;
+                    };
+                }
+            });
+
+            ctxMenu.$contextMenuContainer.mousedown(function(event) {
+                ctxMenu.$contextMenuContainer.hide();
+                ctxMenu.selectAction($('.track.selected'));
+            });
+
+            $('#okPlaylistCreateModalBtn').click(function() {
+
+                $('#createPlaylistModal').modal('hide');
+                $('#createPlaylistModal').on('hidden.bs.modal', function() {
+                    $('#createPlaylistModal .modal-body #playlistNameToCreate').val("");
+                    $('#createPlaylistModal .modal-body select :first').attr("selected", "selected");
+                });
+
+                var playlistName = $('#playlistNameToCreate').val();
+                var playlistAccessibility = $('#newPlaylistAccessibility option:selected').val();
+                $.ajax({
+                    url: '/api/playlists?name=' + playlistName + '&accessibilty=' + playlistAccessibility,
+                    type: 'POST',
+                    contentType: 'application/json',
+                    async: false,
+                    success: function(playlistId) {
+                        self._saveTrackFromVkToPlaylist($('#itemsContainer'), -1, playlistId);
+                    }
+                });
+            });
+        });
+    </script>
+    
+    <script id="popoverPlaylistTemplate" type="text/x-jQuery-tmpl">
+        <li style="display: block;">
+            <div class="popoverPlaylistBtn">${Name}</div>
+            <div class="playlistId hidden">${Id}</div>
+        </li>
+    </script>
+    
+    <script id="contextmenuTemplate" type="text/x-JQuery-tmpl">
+        <div class="tableRow">
+            <div id="${id}" class="contextMenuActionName">${name}</div>
+            <div class="contextMenuExpander"></div>
+        </div>
+    </script>
+
+    <script id="subContextmenuTemplate" type="text/x-JQuery-tmpl">
+        <div class="tableRow">
+            <div class="contextMenuActionName">${name}</div>
+            <span class="playlistId" style="display: none">${id}</span>
+        </div>
+    </script>
+}

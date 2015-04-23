@@ -1,0 +1,236 @@
+﻿#user-container {
+    width: 60%;
+    height: 100%;
+}
+
+#user-photo {
+    text-align: center;
+}
+
+#user-photo img {
+    margin: auto;
+    max-height: 300px;
+}
+
+div#user-photo i {
+    font-size: 20px;
+    color: black;
+}
+#stats-section {
+    padding-top: 10px;
+}
+#user-name {
+    font-size: 27px;
+    padding: 4px;
+}
+
+#user-info {
+    height: 100%;
+}
+
+#followers-section div,
+#playlist-section div {
+    display: inline-block;
+    width: 30%;
+    padding: 2%;
+    cursor: pointer;
+}
+
+.favorite-playlist {
+    color: black !important;
+}
+
+.favorite-playlist:hover {
+    background-color: #FFD386 !important;
+    color: #353535 !important;
+}
+
+#owned-playlists {
+    margin-left: 1%;
+    display: inline-block;
+}
+
+#social-container {
+    padding: 10px 0;
+}
+
+#social-container .social-network {
+    border: 2px solid white;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    padding: 1%;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    -ms-background-size: 100%;
+    background-size: 100% 100%;
+    font: normal normal normal 22px/1 FontAwesome;
+    color: white;
+    -ms-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.social-network.active {
+    border: 2px solid green;
+}
+
+.social-network.active .active-mark {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25px;
+	height: 25px;
+	border-bottom: 25px solid green;
+	border-left: 25px solid transparent;
+}
+
+.active-mark .fa {
+    position: absolute;
+    right: 0;
+    color: white;
+    bottom: -25px;
+    font-size: 14px
+}
+
+.users {
+    height: auto;
+    overflow: auto;
+}
+
+.userName {
+    display: none;
+}
+
+#popupModal .topPeople {
+    margin: 10px;
+    float: left;
+}
+
+#popup .topPeople {
+    margin: 3px;
+    float: left;
+    width: 30px;
+}
+
+#popup a {
+    width: 30px;
+    text-align: center;
+    position: absolute;
+}
+    
+#popup img {
+    vertical-align: middle;
+    margin: auto;
+    max-height: 30px;
+    max-width: 30px;
+    text-align: center;
+}
+
+#popupModal img {
+    display: block;
+    vertical-align: middle;
+    margin: auto;
+    max-height: 100px;
+    max-width: 100px;
+    text-align: center;
+}
+
+#popup {
+    background-color: #353535;
+    background-image: linear-gradient(#353535,#000000);
+    border-radius: 2px;
+    box-shadow: 0 0 3px #333;
+    color: #000;
+    display: none;
+    position: absolute;
+    height: 40px;
+    width: 170px;
+    cursor: pointer;
+}
+
+#popup:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color: #353535;
+    top: 100%;
+    left: 17.7%;
+    margin-left: -15px;
+}
+
+#popupModal .modal-footer {
+    margin-top: 0;
+}
+
+#social-container a {
+    width: 100%;
+    height: 100%;
+}
+
+#social-container a:hover {
+    text-decoration: none;
+}
+
+#social-container #Vkontakte {
+    background: #6A96C7;
+}
+
+#social-container #Google {
+    background: #FF6D4B;
+}
+
+#social-container #Twitter{
+    background: #29C3FF;
+}
+
+#social-container #Facebook {
+    background: #496094;
+}
+
+#social-container .social-network:hover {
+    -webkit-transition: background .512s linear;
+    -moz-transition: background .512s linear;
+    -ms-transition: background .512s linear;
+    -o-transition: background .512s linear;
+    transition: background .512s linear;
+    cursor: pointer;
+}
+
+#social-container #Vkontakte:hover {
+    content: "\f189";
+    background: #1e6bc0;
+}
+
+#social-container #Google:hover {
+    content: "\f0d5";
+    background: #fd2f00;
+}
+
+#social-container #Twitter:hover{
+    content: "\f09a";
+    background: #0698d0;
+}
+
+#social-container #Facebook:hover {
+    content: "\f099";
+    background: #183d92;
+}
+
+#social-container #Vkontakte:before {
+    content: "\f189";
+}
+
+#social-container #Google:before {
+    content: "\f0d5";
+}
+
+#social-container #Twitter:before{
+    content: "\f099";
+}
+
+#social-container #Facebook:before {
+    content: "\f09a";
+}

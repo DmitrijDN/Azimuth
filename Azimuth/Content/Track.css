@@ -1,0 +1,120 @@
+﻿.tracksContainer {
+    display: block;
+    float: left;
+    width: 75%;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.track {
+    display: block;
+    height: 40px;
+    width: 100%;
+    -moz-min-width: 250px;
+    -ms-min-width: 250px;
+    -o-min-width: 250px;
+    -webkit-min-width: 250px;
+    min-width: 250px;
+    background-color: #F0F0F0;
+    margin: 4px 0;
+}
+
+.track:hover {
+    background-color: #FFD386;
+}
+
+.track-description {
+    display: inline;
+    height: 80%;
+    width: 70%;
+    left: 10%;
+    font-size: 12px;
+}
+
+.track-info {
+    display: block;
+    float: left;
+    width: 75%;
+    white-space: nowrap;
+    overflow: hidden;
+    -moz-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    line-height: 40px;
+    min-height: 40px;
+}
+
+.track-info a {
+    color: black;
+}
+
+.track-remaining {
+    display: inline;
+    float: left;
+    width: 20%;
+    white-space: nowrap;
+    overflow: hidden;
+    -moz-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.track-info-btn {
+    float: left;
+    margin-left: 2%;
+    vertical-align: middle;
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 0 0;
+    font-size: 12px;
+    line-height: 1.42;
+    -ms-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.track-genre {
+    display: inline;
+    float: left;
+    margin-top: 10px;
+    width: 15%;
+}
+
+.track-duration {
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+/*.track-remaining {
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}*/
+
+.track-play-btn {
+    display: inline-block;
+    float: left;
+    width: 30px;
+    text-align: center;
+    height: 60%;
+    margin: 7px;
+    padding: 2px;
+    padding-left: 5px;
+}
+
+.playBtn {
+    position: relative;
+    top: 10px;
+    width: 40px;
+    height: 30px;
+    left: 20px;
+}
+
+#searchTrackName {
+    margin: 0 auto;
+}

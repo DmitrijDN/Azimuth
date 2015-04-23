@@ -1,0 +1,58 @@
+﻿@model Azimuth.Shared.Dto.PublicPlaylistInfo
+
+@{
+    string likeAction, favouriteAction;
+    if (Request.IsAuthenticated)
+    {
+        likeAction = @Model.IsLiked ? "Unlike" : "Like";
+        favouriteAction = @Model.IsFavourited ? "Unfavourite" : "Favourite";
+    }
+    else
+    {
+        likeAction = "Like";
+        favouriteAction = "Favourite";
+    }
+}
+
+<div id="playlistFollowActions">
+    @if (@Request.IsAuthenticated)
+    {
+        using (@Ajax.BeginForm("_ChangeLikeStatus", "PublicPlaylists", new AjaxOptions
+        {
+            HttpMethod = "Post",
+            UpdateTargetId = "playlistFollowActions",
+            InsertionMode = InsertionMode.Replace
+        }))
+        {
+            <div class="counter-container">
+                <button class="btn btn-default btn-xs" name="buttonType" id="likeBtn" value="like"><i class="fa fa-heart"></i>@likeAction</button>
+                <div class="count-label">@Model.LikesCount</div>
+            </div>
+            <div class="counter-container">
+                <button class="btn btn-default btn-xs" name="buttonType" id="favouriteBtn" value="favourite"><i class="fa fa-star"></i>@favouriteAction</button>
+                <div class="count-label">@Model.FavouritesCount</div>
+            </div>
+
+            <input type="hidden" name="PlaylistId" value="@Model.PlaylistId"/>
+            <input type="hidden" name="PlaylistName" value="@Model.PlaylistName"/>
+            <input type="hidden" name="IsLiked" value="@Model.IsLiked.ToString()"/>
+            <input type="hidden" name="IsFavourited" value="@Model.IsFavourited.ToString()"/>
+            <input type="hidden" name="LikesCount" value="@Model.LikesCount"/>
+            <input type="hidden" name="FavouritesCount" value="@Model.FavouritesCount" />
+        }
+    }
+    else
+    {
+        using (@Html.BeginForm("NeedLogIn", "PublicPlaylists", FormMethod.Post))
+        {
+            <div class="counter-container">
+                <button class="btn btn-default btn-xs" name="buttonType" id="likeBtn" value="like"><i class="fa fa-heart"></i>@likeAction</button>
+                <div class="count-label">@Model.LikesCount</div>
+            </div>
+            <div class="counter-container">
+                <button class="btn btn-default btn-xs" name="buttonType" id="favouriteBtn" value="favourite"><i class="fa fa-star"></i>@favouriteAction</button>
+                <div class="count-label">@Model.FavouritesCount</div>
+            </div>
+        }
+    }
+</div>

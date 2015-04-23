@@ -1,0 +1,1537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="27c52d4a-db3f-4912-97fd-6a05de9a1400" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.02df6838-75e6-4501-b884-bc045ecf8b88.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="d067412b-ccff-4f71-b989-587180ea6e03" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="ht" RecordedValue="ht" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="8c90315e-5062-4aed-a386-d666cb10e707" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="htt" RecordedValue="htt" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="28aaae31-f544-4b65-bcf1-fa27899c6394" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http" RecordedValue="http" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="7adb2ae0-212e-4a52-8d10-eee88c5aed10" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A" RecordedValue="http%3A" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="9d663664-d3f1-4bd3-94b7-a9dc47eecd79" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F" RecordedValue="http%3A%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="10f7a984-5a06-403d-8542-da95c00696c6" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2F" RecordedValue="http%3A%2F%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="9daed784-9b42-4c16-bdbd-e1b0af04fbaa" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Flocal" RecordedValue="http%3A%2F%2Flocal" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="398" RecordedValue="398" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="13f02565-a42a-46e0-af5e-0455e00cb007" Version="1.1" Url="http://localhost:44300/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost:44300/PublicPlaylists" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="5978160d-d27e-4da2-b783-11fbb9b81e38" Version="1.1" Url="http://localhost:44300/api/playlists/image/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="02f4a031-63ac-437e-890f-08c2c377a6e9" Version="1.1" Url="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="0de6dc54-30f1-46b3-aaab-7fb6b92bcb9f" Version="1.1" Url="http://localhost:44300/api/playlists/genres" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="id" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam414.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam428.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam453.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam478.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam503.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="0850dfef-da86-415c-9f3c-42591a44b136" Version="1.1" Url="http://localhost:44300/signalr/negotiate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1417003706743" RecordedValue="1417003706743" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="fdd4c031-1f58-4514-9d6f-13f1b6dba623" Version="1.1" Url="http://localhost:1226/cc2d42f3d06d434da686d03f4fea6bc6/arterySignalR/negotiate" ThinkTime="31" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/x-www-form-urlencoded; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.3" RecordedValue="1.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1417003707014" RecordedValue="1417003707014" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="GET" Guid="a52bcdde-9a2c-4443-a6e7-98498ffad42e" Version="1.1" Url="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="bf570971-0142-4710-a3a1-e41544a6b9b6" Version="1.1" Url="https://www.google.com/jsapi" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="autoload" Value="{%22modules%22:[{%22name%22:%22visualization%22,%22version%22:%221%22,%22packages%22:[%22corechart%22]}]}" RecordedValue="{%22modules%22:[{%22name%22:%22visualization%22,%22version%22:%221%22,%22packages%22:[%22corechart%22]}]}" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="OPTIONS" Guid="d0c2a547-6f40-4dc5-8063-599be785c857" Version="1.1" Url="http://ajax.last.fm/heartbeat" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <QueryStringParameters>
+            <QueryStringParameter Name="_" Value="1417003738400" RecordedValue="1417003738400" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+          <StringHttpBody ContentType="" InsertByteOrderMark="False">
+          </StringHttpBody>
+        </Request>
+        <Request Method="GET" Guid="84296f01-d21f-4e67-94b3-d77fdf3062e1" Version="1.1" Url="http://pubads.g.doubleclick.net/gampad/ads" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="gdfp_req" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="correlator" Value="3060473833892849" RecordedValue="3060473833892849" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="output" Value="json_html" RecordedValue="json_html" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="googletag.impl.pubads.setAdContentsBySlotForSync" RecordedValue="googletag.impl.pubads.setAdContentsBySlotForSync" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="impl" Value="ss" RecordedValue="ss" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="json_a" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sfv" Value="1-0-0" RecordedValue="1-0-0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="iu_parts" Value="8264%2Crow-lastfm%2Cmusic%2Calbum%2Coverview" RecordedValue="8264%2Crow-lastfm%2Cmusic%2Calbum%2Coverview" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="enc_prev_ius" Value="%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4" RecordedValue="%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4%2C%2F0%2F1%2F2%2F3%2F4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="prev_iu_szs" Value="728x90%7C970x66%7C970x90%7C860x55%7C880x150%7C880x170%7C880x200%7C900x150%7C900x250%7C970x200%7C970x250%7C860x250%7C980x250%2C300x250%7C138x108%7C300x600%2C1600x1000%2C1x1%2C728x90%7C970x90%7C860x55%7C880x150%7C880x170%7C880x200%7C900x150" RecordedValue="728x90%7C970x66%7C970x90%7C860x55%7C880x150%7C880x170%7C880x200%7C900x150%7C900x250%7C970x200%7C970x250%7C860x250%7C980x250%2C300x250%7C138x108%7C300x600%2C1600x1000%2C1x1%2C728x90%7C970x90%7C860x55%7C880x150%7C880x170%7C880x200%7C900x150" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ists" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="prev_scp" Value="pos%3Dtop%7Cpos%3Dtop%7Cpos%3Dtop%7C%7Cpos%3Dbottom" RecordedValue="pos%3Dtop%7Cpos%3Dtop%7Cpos%3Dtop%7C%7Cpos%3Dbottom" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cust_params" Value="inskin%3Dyes%26ar%3Dkorn%252Ckorn%252Climpbizkit%252Chead%252Cjonathandavis%252Cslipknot%252Cdeftones%252Cstatic-x%252Csoulfly%252Cillni%25C3%25B1o%252Cmudvayne%26tag%3Dnumetal%252Calbumsiown%252Calternativemetal%252Cmymp3%252Ckorn%252Cnu-metal%252Crock%252C2005%252Chardrock%252Crapmetal%26geo%3DUA%26ref%3Dlocalhost%26lang%3Den%26res%3D2323705%26ontour%3D1%26established%3D1%26vguid%3De08443a8-7ffb-4f80-b0d0-cf7a465e7861" RecordedValue="inskin%3Dyes%26ar%3Dkorn%252Ckorn%252Climpbizkit%252Chead%252Cjonathandavis%252Cslipknot%252Cdeftones%252Cstatic-x%252Csoulfly%252Cillni%25C3%25B1o%252Cmudvayne%26tag%3Dnumetal%252Calbumsiown%252Calternativemetal%252Cmymp3%252Ckorn%252Cnu-metal%252Crock%252C2005%252Chardrock%252Crapmetal%26geo%3DUA%26ref%3Dlocalhost%26lang%3Den%26res%3D2323705%26ontour%3D1%26established%3D1%26vguid%3De08443a8-7ffb-4f80-b0d0-cf7a465e7861" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cookie_enabled" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="lmt" Value="1417003736" RecordedValue="1417003736" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="dt" Value="1417003739234" RecordedValue="1417003739234" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cc" Value="100" RecordedValue="100" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="frm" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="biw" Value="1366" RecordedValue="1366" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="bih" Value="673" RecordedValue="673" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="oid" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="adks" Value="3502293578%2C1530894708%2C88585061%2C3977756756%2C1360626158" RecordedValue="3502293578%2C1530894708%2C88585061%2C3977756756%2C1360626158" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="gut" Value="v2" RecordedValue="v2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ifi" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_tz" Value="120" RecordedValue="120" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_his" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_h" Value="768" RecordedValue="768" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_w" Value="1366" RecordedValue="1366" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_ah" Value="728" RecordedValue="728" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_aw" Value="1366" RecordedValue="1366" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_nplug" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_nmime" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="u_sd" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="flash" Value="15.0.0" RecordedValue="15.0.0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="url" Value="http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide" RecordedValue="http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide" CorrelationBinding="{{QueryStringParam2012.url}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ref" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="vrg" Value="54" RecordedValue="54" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="vrp" Value="54" RecordedValue="54" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ga_vid" Value="1192358491.1417003739" RecordedValue="1192358491.1417003739" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ga_sid" Value="1417003739" RecordedValue="1417003739" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ga_hid" Value="1859000664" RecordedValue="1859000664" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="25afa24b-1e2d-442f-baef-7b25f19bf72b" Version="1.1" Url="http://ajax.last.fm/heartbeat" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+            <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="_" Value="1417003738400" RecordedValue="1417003738400" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="0538aa74-c4b3-4e07-a761-e8bde686b042" Version="1.1" Url="http://tpc.googlesyndication.com/safeframe/1-0-0/html/container.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="5f251961-5dfd-44bb-8ae3-ca166680964f" Version="1.1" Url="http://tpc.googlesyndication.com/safeframe/1-0-0/html/container.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="d4a2a4c3-3a81-4835-a747-dce0c6e3225e" Version="1.1" Url="http://b.scorecardresearch.com/b" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://b.scorecardresearch.com/b2?c1=2&amp;c2=3000023&amp;rn=0.8513276947243022&amp;c7=http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;c16=&amp;c8=See%20You%20on%20the%20Other%20Side%20%E2%80%93%20Korn%20%E2%80%93%20Listen%20and%20discover%20music%20at%20Last.fm&amp;c9=http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists&amp;cv=1.6" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="c1" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="c2" Value="3000023" RecordedValue="3000023" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="rn" Value="0.8513276947243022" RecordedValue="0.8513276947243022" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="c7" Value="http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide" RecordedValue="http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="c3" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="c4" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="c5" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="c6" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="c15" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="c16" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="c8" Value="See%20You%20on%20the%20Other%20Side%20%E2%80%93%20Korn%20%E2%80%93%20Listen%20and%20discover%20music%20at%20Last.fm" RecordedValue="See%20You%20on%20the%20Other%20Side%20%E2%80%93%20Korn%20%E2%80%93%20Listen%20and%20discover%20music%20at%20Last.fm" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="c9" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cv" Value="1.6" RecordedValue="1.6" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="9fe5c12a-2a99-4bd6-83ec-56195779bf82" Version="1.1" Url="https://s.yimg.com/uq/syndication/yad-iframe.c0ba710.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="9b184137-a9b3-4561-9c7d-f6dee5142b3a" Version="1.1" Url="https://s.yimg.com/uq/syndication/yad-iframe.c0ba710.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="184e8cbd-7829-4a88-83a9-ff1a6a70fd3f" Version="1.1" Url="http://apex.last.fm/aws/rest/v2.0/apexTarget" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="refUrl" Value="http%253A%252F%252Flocalhost%253A44300%252FPublicPlaylists" RecordedValue="http%253A%252F%252Flocalhost%253A44300%252FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sId" Value="190" RecordedValue="190" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ptId" Value="2000" RecordedValue="2000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="onId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="asId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="nCat" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="edId" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="regSys" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="regId" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="lgnSts" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="t" Value="1417003741890" RecordedValue="1417003741890" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="callback" Value="parseArrowResponse" RecordedValue="parseArrowResponse" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="d2ad87eb-4b6d-493c-8124-254e64466b1e" Version="1.1" Url="http://cdn.last.fm/flatness/soundmanager/297a-20120916/soundmanager2.swf" ThinkTime="9" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam901.url" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?url=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1796.url" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?url=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2012.url" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?url=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="91b5194c-11e2-4f4c-898c-9673c2d0e74a" Version="1.1" Url="http://tpc.googlesyndication.com/safeframe/1-0-0/html/container.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a6e382a5-052e-4c11-aa36-206bc7fc799f" Version="1.1" Url="http://localhost:1226/cc2d42f3d06d434da686d03f4fea6bc6/arterySignalR/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAAAcIlCJ%2BqjazGKaumoXzlvQxPnzTUHw2oYISr1NfpdsmAAAAAAOgAAAAAIAACAAAAAT%2Bl69pb7J8adMIEtlU9kkJYSAQo1xxGfgEDdYeqNyXTAAAABYtGMBgjboQXM9q1DbbGE6FMLMWsSis%2BUzY9lc3NrWoXh6CmkWI0N29YbsWsWdokFAAAAAcNocNG9S3h6ksBRdO0Ix0%2FG3XvafyEIctaFdXqms9lvhd87laWzQt4kmob3wzCyMqYzds%2B4moDbBJim2ajCgsw%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAAAcIlCJ%2BqjazGKaumoXzlvQxPnzTUHw2oYISr1NfpdsmAAAAAAOgAAAAAIAACAAAAAT%2Bl69pb7J8adMIEtlU9kkJYSAQo1xxGfgEDdYeqNyXTAAAABYtGMBgjboQXM9q1DbbGE6FMLMWsSis%2BUzY9lc3NrWoXh6CmkWI0N29YbsWsWdokFAAAAAcNocNG9S3h6ksBRdO0Ix0%2FG3XvafyEIctaFdXqms9lvhd87laWzQt4kmob3wzCyMqYzds%2B4moDbBJim2ajCgsw%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="9" RecordedValue="9" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="4d494e44-878d-4f71-9fa7-48dab38f031b" Version="1.1" Url="http://localhost:44300/signalr/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="wxTFWjSUDeOYgOBN%2BL2EevUPznFu%2B7M1qzPCPOk1Y9UvRTh4OhRVTu8xfzH7PlemtwkFzpuGjELo%2F6ZAuxKfUYZ2T1wZvcsKWNZfSGsf5Cl5sSEscHs%2Fx9TcO44H3Jri" RecordedValue="wxTFWjSUDeOYgOBN%2BL2EevUPznFu%2B7M1qzPCPOk1Y9UvRTh4OhRVTu8xfzH7PlemtwkFzpuGjELo%2F6ZAuxKfUYZ2T1wZvcsKWNZfSGsf5Cl5sSEscHs%2Fx9TcO44H3Jri" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="32914cb0-08ff-4a83-99d1-1c6a3f184bf1" Version="1.1" Url="http://localhost:44300/signalr/start" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="wxTFWjSUDeOYgOBN%2BL2EevUPznFu%2B7M1qzPCPOk1Y9UvRTh4OhRVTu8xfzH7PlemtwkFzpuGjELo%2F6ZAuxKfUYZ2T1wZvcsKWNZfSGsf5Cl5sSEscHs%2Fx9TcO44H3Jri" RecordedValue="wxTFWjSUDeOYgOBN%2BL2EevUPznFu%2B7M1qzPCPOk1Y9UvRTh4OhRVTu8xfzH7PlemtwkFzpuGjELo%2F6ZAuxKfUYZ2T1wZvcsKWNZfSGsf5Cl5sSEscHs%2Fx9TcO44H3Jri" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1417003706744" RecordedValue="1417003706744" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="f974a897-48a7-4eb3-96ed-7d83733dd5c9" Version="1.1" Url="http://localhost:44300/__browserLink/requestData/a1d87bd6e040471f9211244439e4edb9" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="a8b31bb4-c5a0-47a4-b427-c780a454cb68" Version="1.1" Url="http://localhost:44300/PublicPlaylists/_PlaylistTracks" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="curPlaylist" Value="%7B%22PlaylistId%22%3A%221%22%2C%22PlaylistName%22%3A%22Test+PL+%22%2C%22LikesCount%22%3A%220%22%2C%22FavouritesCount%22%3A%220%22%7D" RecordedValue="%7B%22PlaylistId%22%3A%221%22%2C%22PlaylistName%22%3A%22Test+PL+%22%2C%22LikesCount%22%3A%220%22%2C%22FavouritesCount%22%3A%220%22%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="ac505975-d522-456d-9e0b-ec9973fedfd1" Version="1.1" Url="http://localhost:44300/api/playlists/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="602880b9-f780-428b-9204-e494eadd1335" Version="1.1" Url="http://localhost:44300/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="02562dac-b2f8-4732-8b47-9eaf3b56829b" Version="1.1" Url="http://localhost:44300/api/playlists/raiselistened" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="id" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="2728ced7-2a32-4c29-9948-532aa67a12a6" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam414.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e6e56b17-51d3-4301-b90c-50ad17119937" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam428.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154613%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154613%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="09eeef02-059b-465b-b7e7-f02b30b0fe38" Version="1.1" Url="http://cs7-3v4.vk-cdn.net/p9/16b92e07a3c5e5.mp3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="zo_KblYKpvpEkD4HVzH5AhJb_m8P7uMhE4BCYSKUUUpYx0oi8OK4hJvXzAknp6ocs74iW73yrufYtXnwvyc-NnE6eHpiGxU" RecordedValue="zo_KblYKpvpEkD4HVzH5AhJb_m8P7uMhE4BCYSKUUUpYx0oi8OK4hJvXzAknp6ocs74iW73yrufYtXnwvyc-NnE6eHpiGxU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="83481b46-d0c2-4f10-89d8-39b26729d0b9" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam453.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22317214666%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22317214666%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="1dd14c48-1193-4314-9530-51611064fe7f" Version="1.1" Url="http://cs7-2v4.vk-cdn.net/p10/780b089307ec80.mp3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="m4sPZsVKK3BdEhRHVVRxgAVBSGoKam1erObTGUu6i249SCP-m6GhPxi60JY4zyvWvqvCjdOJzXwVVMYKE3vMqa6Bwo-v6t8" RecordedValue="m4sPZsVKK3BdEhRHVVRxgAVBSGoKam1erObTGUu6i249SCP-m6GhPxi60JY4zyvWvqvCjdOJzXwVVMYKE3vMqa6Bwo-v6t8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e483b91d-57a9-4b00-b2ad-49c5cea16f97" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam478.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22317214666%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22317214666%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="a7b9ea32-483b-4bdb-8767-a67d7d1973db" Version="1.1" Url="http://cs7-5v4.vk-cdn.net/p19/a3ec7f7b300b8c.mp3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="OKDR5XnlPv-lRlJBUHFAxElVFukYdLa4-Q9g8mu46_8zU9Hqq1qk6BIXQrdOW0ypD-K2zEZ2u23v4eFh3MMTfL9O1zhtYRw" RecordedValue="OKDR5XnlPv-lRlJBUHFAxElVFukYdLa4-Q9g8mu46_8zU9Hqq1qk6BIXQrdOW0ypD-K2zEZ2u23v4eFh3MMTfL9O1zhtYRw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="29c46d08-b703-47be-98dd-d62d22d1d557" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam503.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154613%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154613%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="4cd03f0c-261f-465f-8e9b-728a1d4ebc28" Version="1.1" Url="http://cs7-3v4.vk-cdn.net/p9/7616c85863e556.mp3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="gz8uYjgJ0bZvViYBlIvQgw9O5QstHm7cPkS7YHuk5XCNOvRyRTsJr1ME0mw1-53EU4UCUBZZg2ITW8xBHbH1cExtpp11CfU" RecordedValue="gz8uYjgJ0bZvViYBlIvQgw9O5QstHm7cPkS7YHuk5XCNOvRyRTsJr1ME0mw1-53EU4UCUBZZg2ITW8xBHbH1cExtpp11CfU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="4777c36c-c030-4e6d-851b-e58e14cdbaea" Version="1.1" Url="http://cs7-5v4.vk-cdn.net/p19/a3ec7f7b300b8c.mp3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="If-Match" Value="&quot;538d5845-46e40f&quot;" />
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="OKDR5XnlPv-lRlJBUHFAxElVFukYdLa4-Q9g8mu46_8zU9Hqq1qk6BIXQrdOW0ypD-K2zEZ2u23v4eFh3MMTfL9O1zhtYRw" RecordedValue="OKDR5XnlPv-lRlJBUHFAxElVFukYdLa4-Q9g8mu46_8zU9Hqq1qk6BIXQrdOW0ypD-K2zEZ2u23v4eFh3MMTfL9O1zhtYRw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="eea6367f-f132-49e1-af29-aac4f468845d" Version="1.1" Url="http://cs7-2v4.vk-cdn.net/p10/780b089307ec80.mp3" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="If-Match" Value="&quot;4b606721-5b42d4&quot;" />
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="m4sPZsVKK3BdEhRHVVRxgAVBSGoKam1erObTGUu6i249SCP-m6GhPxi60JY4zyvWvqvCjdOJzXwVVMYKE3vMqa6Bwo-v6t8" RecordedValue="m4sPZsVKK3BdEhRHVVRxgAVBSGoKam1erObTGUu6i249SCP-m6GhPxi60JY4zyvWvqvCjdOJzXwVVMYKE3vMqa6Bwo-v6t8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="4d68e1ac-854b-48e6-90e6-01c54da9c380" Version="1.1" Url="http://localhost:44300/api/usertracks/trackinfo" ThinkTime="8" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="artist" Value="Korn" RecordedValue="Korn" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackName" Value="Liar" RecordedValue="Liar" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="15d6bd37-0668-481d-85f9-9845f91f561e" Version="1.1" Url="http://localhost:1226/cc2d42f3d06d434da686d03f4fea6bc6/arterySignalR/abort" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAAAcIlCJ%2BqjazGKaumoXzlvQxPnzTUHw2oYISr1NfpdsmAAAAAAOgAAAAAIAACAAAAAT%2Bl69pb7J8adMIEtlU9kkJYSAQo1xxGfgEDdYeqNyXTAAAABYtGMBgjboQXM9q1DbbGE6FMLMWsSis%2BUzY9lc3NrWoXh6CmkWI0N29YbsWsWdokFAAAAAcNocNG9S3h6ksBRdO0Ix0%2FG3XvafyEIctaFdXqms9lvhd87laWzQt4kmob3wzCyMqYzds%2B4moDbBJim2ajCgsw%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAAAcIlCJ%2BqjazGKaumoXzlvQxPnzTUHw2oYISr1NfpdsmAAAAAAOgAAAAAIAACAAAAAT%2Bl69pb7J8adMIEtlU9kkJYSAQo1xxGfgEDdYeqNyXTAAAABYtGMBgjboQXM9q1DbbGE6FMLMWsSis%2BUzY9lc3NrWoXh6CmkWI0N29YbsWsWdokFAAAAAcNocNG9S3h6ksBRdO0Ix0%2FG3XvafyEIctaFdXqms9lvhd87laWzQt4kmob3wzCyMqYzds%2B4moDbBJim2ajCgsw%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="POST" Guid="be2833a9-2bd5-4407-9fa6-25ac0bbd5faa" Version="1.1" Url="http://localhost:44300/signalr/abort" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="wxTFWjSUDeOYgOBN%2BL2EevUPznFu%2B7M1qzPCPOk1Y9UvRTh4OhRVTu8xfzH7PlemtwkFzpuGjELo%2F6ZAuxKfUYZ2T1wZvcsKWNZfSGsf5Cl5sSEscHs%2Fx9TcO44H3Jri" RecordedValue="wxTFWjSUDeOYgOBN%2BL2EevUPznFu%2B7M1qzPCPOk1Y9UvRTh4OhRVTu8xfzH7PlemtwkFzpuGjELo%2F6ZAuxKfUYZ2T1wZvcsKWNZfSGsf5Cl5sSEscHs%2Fx9TcO44H3Jri" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <StringHttpBody ContentType="application/json; charset=UTF-8" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="807a9720-c069-4554-aaa3-c37f8812af8b" Version="1.1" Url="http://googleads.g.doubleclick.net/pagead/drt/s" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="v" Value="r20120211" RecordedValue="r20120211" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="dc2105cb-77c5-48b1-963c-e0329c45e907" Version="1.1" Url="https://www.google.com/pagead/drt/ui" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://googleads.g.doubleclick.net/pagead/drt/si?p=CAA&amp;ut=AFAKxlQAAAAAVHXGYNODPjKkWe1X0C2bIaXRi_iBpQK2" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="f323a393-6ae4-4d29-a68b-8f758a1594a9" Version="1.1" Url="http://tap2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam756.fpid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?fpid=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam757.sp" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;sp=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="rtb_ext" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pc" Value="9818/37630" RecordedValue="9818/37630" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="geo" Value="eu" RecordedValue="eu" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="co" Value="ua" RecordedValue="ua" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="06c028a0-b544-43e1-88bf-9b43c5a4b643" Version="1.1" Url="https://s.yimg.com/uq/syndication/yad-iframe.c0ba710.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="a82f396e-dc1d-440c-aa75-52fbe5188447" Version="1.1" Url="http://ad.turn.com/server/pixel.htm" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://tap2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html?rtb_ext=1&amp;pc=9818/37630&amp;geo=eu&amp;co=ua" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam758.uid" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?uid=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam759.rnd" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;rnd=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam760.fpid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;fpid=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam761.nu" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;nu=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam762.sp" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;sp=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam763.ctid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;ctid=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam764.cyid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;cyid=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="fpid" Value="6" RecordedValue="6" CorrelationBinding="{{QueryStringParam756.fpid}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sp" Value="y" RecordedValue="y" CorrelationBinding="{{QueryStringParam757.sp}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="fa70475f-d145-4dd7-864a-f686e0c44231" Version="1.1" Url="http://cdn.turn.com/server/ddc.htm" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://ad.turn.com/server/pixel.htm?fpid=6&amp;sp=y" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="uid" Value="{{QueryStringParam758.uid}}" RecordedValue="9061240977525433992" CorrelationBinding="{{QueryStringParam758.uid}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rnd" Value="{{QueryStringParam759.rnd}}" RecordedValue="9133298571563361928" CorrelationBinding="{{QueryStringParam759.rnd}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fpid" Value="6" RecordedValue="6" CorrelationBinding="{{QueryStringParam760.fpid}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="nu" Value="y" RecordedValue="y" CorrelationBinding="{{QueryStringParam761.nu}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="t" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sp" Value="y" RecordedValue="y" CorrelationBinding="{{QueryStringParam762.sp}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="purl" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ctid" Value="3" RecordedValue="3" CorrelationBinding="{{QueryStringParam763.ctid}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cyid" Value="32" RecordedValue="32" CorrelationBinding="{{QueryStringParam764.cyid}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="1ea38a57-6aa3-490f-9c23-45bc8ab8fca1" Version="1.1" Url="http://tags.bluekai.com/site/16515" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://tags.bluekai.com/site/16515?dt=0&amp;r=1905814256&amp;sig=664201446&amp;bkca=KJhaDWarCe9149lzAaCtP2DKrcug4310JOuUJ/TzO6o4U6BOwRlcTdWTRuF+vBbPzzxQnUOh4jr/x2WXeleGRTzdWT3u6RJHIv/91A/y1sBu7Cpsv59tRKyQampKaHeL3II+omys+t3apQDL7+4i2DJv4ERpg1WKIxv4KAe/lQGTkzaNtuKAJKhWnsLypFqDdKgM24dVAv+ERKG7CSSrf2F5ymqG11H28Ai1ICYBjaG3O6AsUpEFwi4La456HjG+ptiUy8JxgagbFAFT82Ab8p8jTbqrlQ2ehvUI/WofvfZ2UtTFMIjHdynfqRw/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ret" Value="html" RecordedValue="html" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="phint" Value="ar%3Dkorn%2Ckorn%2Climpbizkit%2Chead%2Cjonathandavis%2Cslipknot%2Cdeftones%2Cstatic-x%2Csoulfly%2Cillni%C3%B1o%2Cmudvayne" RecordedValue="ar%3Dkorn%2Ckorn%2Climpbizkit%2Chead%2Cjonathandavis%2Cslipknot%2Cdeftones%2Cstatic-x%2Csoulfly%2Cillni%C3%B1o%2Cmudvayne" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="phint" Value="tag%3Dnumetal%2Calbumsiown%2Calternativemetal%2Cmymp3%2Ckorn%2Cnu-metal%2Crock%2C2005%2Chardrock%2Crapmetal" RecordedValue="tag%3Dnumetal%2Calbumsiown%2Calternativemetal%2Cmymp3%2Ckorn%2Cnu-metal%2Crock%2C2005%2Chardrock%2Crapmetal" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="phint" Value="path%3Drow-lastfm%2Fmusic%2Falbum%2Foverview" RecordedValue="path%3Drow-lastfm%2Fmusic%2Falbum%2Foverview" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="phint" Value="site%3Dccbsilastfmsite" RecordedValue="site%3Dccbsilastfmsite" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="phint" Value="ptype%3Dalbum_door" RecordedValue="ptype%3Dalbum_door" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="limit" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="r" Value="51479290" RecordedValue="51479290" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="36fd0afb-aa78-4e87-a7bd-c4e72386675f" Version="1.1" Url="http://googleads.g.doubleclick.net/pagead/ads" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3296.client" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?client=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="client" Value="ca-pub-2679103605715789" RecordedValue="ca-pub-2679103605715789" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="output" Value="html" RecordedValue="html" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="h" Value="250" RecordedValue="250" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="slotname" Value="4726137841" RecordedValue="4726137841" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="adk" Value="3524278886" RecordedValue="3524278886" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="w" Value="300" RecordedValue="300" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lmt" Value="1417003736" RecordedValue="1417003736" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="flash" Value="15.0.0" RecordedValue="15.0.0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="url" Value="http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide" RecordedValue="http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide" CorrelationBinding="{{QueryStringParam901.url}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dt" Value="1417003741416" RecordedValue="1417003741416" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="bpp" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="bdt" Value="3404" RecordedValue="3404" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="shv" Value="r20141113" RecordedValue="r20141113" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cbv" Value="r20141119" RecordedValue="r20141119" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="saldr" Value="sa" RecordedValue="sa" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="correlator" Value="7014686506925" RecordedValue="7014686506925" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="frm" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ga_vid" Value="764642531.1417003739" RecordedValue="764642531.1417003739" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ga_sid" Value="1417003739" RecordedValue="1417003739" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ga_hid" Value="654456070" RecordedValue="654456070" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ga_fc" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_tz" Value="120" RecordedValue="120" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_his" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_java" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_h" Value="768" RecordedValue="768" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_w" Value="1366" RecordedValue="1366" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_ah" Value="728" RecordedValue="728" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_aw" Value="1366" RecordedValue="1366" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nplug" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nmime" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dff" Value="times%20new%20roman" RecordedValue="times%20new%20roman" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dfs" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="adx" Value="845" RecordedValue="845" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ady" Value="567" RecordedValue="567" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="biw" Value="1349" RecordedValue="1349" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="bih" Value="673" RecordedValue="673" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="eid" Value="317150304" RecordedValue="317150304" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="oid" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ref" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="loc" Value="http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide" RecordedValue="http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rx" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="eae" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fc" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="docm" Value="11" RecordedValue="11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="brdim" Value="0%2C55%2C-8%2C-8%2C1366%2C%2C1382%2C744%2C1366%2C673" RecordedValue="0%2C55%2C-8%2C-8%2C1366%2C%2C1382%2C744%2C1366%2C673" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="vis" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="abl" Value="CS" RecordedValue="CS" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ppjl" Value="u" RecordedValue="u" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fu" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ifi" Value="7" RecordedValue="7" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="xpc" Value="gQBIzKjxaI" RecordedValue="gQBIzKjxaI" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="p" Value="http%3A//www.last.fm" RecordedValue="http%3A//www.last.fm" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dtd" Value="201" RecordedValue="201" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="ea15ff5f-f197-480c-bf93-63a184083f4e" Version="1.1" Url="http://cl.netseer.com/dsatserving2/servlet/BannerServer" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.last.fm/music/Korn/See+You+on+the+Other+Side" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3430.url" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;url=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3721.url" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;url=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="tagid" Value="19875" RecordedValue="19875" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="url" Value="http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide" RecordedValue="http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide" CorrelationBinding="{{QueryStringParam1796.url}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="impt" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rfd" Value="localhost%3A44300" RecordedValue="localhost%3A44300" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="imps" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="adh" Value="90" RecordedValue="90" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="adw" Value="960" RecordedValue="960" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="frd" Value="1417003741625" RecordedValue="1417003741625" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="t" Value="0.29169319351933886" RecordedValue="0.29169319351933886" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e7bc3e3b-b37b-4ec2-9d02-7e0aa30c4ef6" Version="1.1" Url="http://googleads.g.doubleclick.net/pagead/drt/s" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://tpc.googlesyndication.com/safeframe/1-0-0/html/container.html" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="v" Value="r20120211" RecordedValue="r20120211" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="0152506e-a355-4c96-b564-bd28a9a10833" Version="1.1" Url="http://googleads.g.doubleclick.net/pagead/drt/s" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://tpc.googlesyndication.com/safeframe/1-0-0/html/container.html" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="v" Value="r20120211" RecordedValue="r20120211" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="72f4b4e6-62e6-46e5-976b-d8c8c6da6979" Version="1.1" Url="http://rpush.cogocast.net/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://tap2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html?rtb_ext=1&amp;pc=9818/37630&amp;geo=eu&amp;co=ua" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="9f3d3ec0-a858-4fec-aea9-7c19d73fd27c" Version="1.1" Url="http://a.triggit.com/pxrucm" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://tap2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html?rtb_ext=1&amp;pc=9818/37630&amp;geo=eu&amp;co=ua" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="73d10844-4a5a-49bc-ba30-fbde8b4adda8" Version="1.1" Url="http://cm.g.doubleclick.net/push" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-2679103605715789&amp;output=html&amp;h=250&amp;slotname=4726137841&amp;adk=3524278886&amp;w=300&amp;lmt=1417003736&amp;flash=15.0.0&amp;url=http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide&amp;dt=1417003741416&amp;bpp=4&amp;bdt=3404&amp;shv=r20141113&amp;cbv=r20141119&amp;saldr=sa&amp;correlator=7014686506925&amp;frm=20&amp;ga_vid=764642531.1417003739&amp;ga_sid=1417003739&amp;ga_hid=654456070&amp;ga_fc=1&amp;u_tz=120&amp;u_his=2&amp;u_java=1&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_nplug=1&amp;u_nmime=2&amp;dff=times%20new%20roman&amp;dfs=0&amp;adx=845&amp;ady=567&amp;biw=1349&amp;bih=673&amp;eid=317150304&amp;oid=3&amp;ref=http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists&amp;loc=http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide&amp;rx=0&amp;eae=0&amp;fc=8&amp;docm=11&amp;brdim=0%2C55%2C-8%2C-8%2C1366%2C%2C1382%2C744%2C1366%2C673&amp;vis=1&amp;abl=CS&amp;ppjl=u&amp;fu=0&amp;ifi=7&amp;xpc=gQBIzKjxaI&amp;p=http%3A//www.last.fm&amp;dtd=201" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="client" Value="ca-pub-2679103605715789" RecordedValue="ca-pub-2679103605715789" CorrelationBinding="{{QueryStringParam3296.client}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e6fb02d5-fa0a-4400-b5f9-046220db3941" Version="1.1" Url="https://syndication.streamads.yahoo.com/na_stream_brewer/brew/v2" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://s.yimg.com/uq/syndication/yad-iframe.c0ba710.html" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="cid" Value="567b43b9-9702-3255-a87e-c0178e2e467f" RecordedValue="567b43b9-9702-3255-a87e-c0178e2e467f" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="url" Value="http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide" RecordedValue="http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide" CorrelationBinding="{{QueryStringParam3430.url}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="v" Value="c0ba710" RecordedValue="c0ba710" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rid" Value="8a6888dd-479f-4c8a-8e1d-4aa5bef979ac" RecordedValue="8a6888dd-479f-4c8a-8e1d-4aa5bef979ac" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pvid" Value="cac2dd90-20f3-481f-9e03-8c58d5879823" RecordedValue="cac2dd90-20f3-481f-9e03-8c58d5879823" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mode" Value="i" RecordedValue="i" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fill" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tti" Value="3824" RecordedValue="3824" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tts" Value="3539" RecordedValue="3539" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="secured" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="callback" Value="YADJSONPCallbacks.receiveCallback_1417003744215" RecordedValue="YADJSONPCallbacks.receiveCallback_1417003744215" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="4c2a9041-76a7-499a-a35b-f5a86521ca6c" Version="1.1" Url="https://www.google.com/pagead/drt/ui" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://googleads.g.doubleclick.net/pagead/drt/si?p=CAA&amp;ut=AFAKxlQAAAAAVHXGZhNogkTWcYeq3L1IEJGViU4rupXW" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="0f67f82e-9a78-4407-8519-da2b9f34c789" Version="1.1" Url="https://syndication.streamads.yahoo.com/na_stream_brewer/brew/v2" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://s.yimg.com/uq/syndication/yad-iframe.c0ba710.html" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="cid" Value="ce99866f-61ce-3bb5-8afb-fd59efbd2dd9" RecordedValue="ce99866f-61ce-3bb5-8afb-fd59efbd2dd9" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="url" Value="http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide" RecordedValue="http%3A%2F%2Fwww.last.fm%2Fmusic%2FKorn%2FSee%2BYou%2Bon%2Bthe%2BOther%2BSide" CorrelationBinding="{{QueryStringParam3721.url}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="v" Value="c0ba710" RecordedValue="c0ba710" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rid" Value="97253a08-c37a-466e-b2d3-d031dd20cf2a" RecordedValue="97253a08-c37a-466e-b2d3-d031dd20cf2a" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pvid" Value="cac2dd90-20f3-481f-9e03-8c58d5879823" RecordedValue="cac2dd90-20f3-481f-9e03-8c58d5879823" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mode" Value="i" RecordedValue="i" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fill" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tti" Value="3835" RecordedValue="3835" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="secured" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="callback" Value="YADJSONPCallbacks.receiveCallback_1417003744232" RecordedValue="YADJSONPCallbacks.receiveCallback_1417003744232" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="bc558fe1-46a3-4f19-a05b-b6d4e3c7af22" Version="1.1" Url="http://localhost:44300/PublicPlaylists" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="dc063655-fdc6-4579-a395-761708f51969" Version="1.1" Url="http://localhost:44300/api/playlists/image/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="b6d2c725-4f61-4b96-b284-1e0ca40d379c" Version="1.1" Url="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="f7fe3b80-4ddd-4975-8aa4-e221234286db" Version="1.1" Url="http://localhost:44300/api/playlists/genres" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="id" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+    </Request>
+    <Request Method="GET" Guid="b89d3aef-ca44-4295-a77d-b744b85a5214" Version="1.1" Url="http://localhost:44300/signalr/negotiate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1417003747404" RecordedValue="1417003747404" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="c6a78a95-b8e0-4cc0-bb65-7e819cc74403" Version="1.1" Url="http://localhost:1226/cc2d42f3d06d434da686d03f4fea6bc6/arterySignalR/negotiate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/x-www-form-urlencoded; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.3" RecordedValue="1.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1417003747646" RecordedValue="1417003747646" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="POST" Guid="871d78fa-cc0a-4f57-8220-b4c642c2e3a1" Version="1.1" Url="https://geo.query.yahoo.com/v1/public/yql" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://s.yimg.com/uq/syndication/yad-iframe.c0ba710.html" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="yhlVer" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlClient" Value="rapid" RecordedValue="rapid" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlS" Value="1197743274" RecordedValue="1197743274" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlUA" Value="ie11" RecordedValue="ie11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlCT" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlBTMS" Value="1417003746715" RecordedValue="1417003746715" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlClientVer" Value="3.21" RecordedValue="3.21" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlRnd" Value="OvLXmvmyBEOEOYNu" RecordedValue="OvLXmvmyBEOEOYNu" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlCompressed" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="q" Value="select * from x where a = '{&quot;bp&quot;:{&quot;_pl&quot;:1,&quot;A_v&quot;:&quot;3.21&quot;,&quot;_R&quot;:&quot;http://www.last.fm/music/Korn/See+You+on+the+Other+Side&quot;,&quot;_bt&quot;:&quot;rapid&quot;},&quot;r&quot;:[{&quot;t&quot;:&quot;pv&quot;,&quot;s&quot;:&quot;1197743274&quot;,&quot;pp&quot;:{&quot;A_sid&quot;:&quot;Hg9kDdBVEfVvfgXn&quot;,&quot;_w&quot;:&quot;http://www.last.fm/music/Korn/See+You+on+the+Other+Side&quot;,&quot;prtnr&quot;:&quot;567b43b9-9702-3255-a87e-c0178e2e467f&quot;,&quot;pubid&quot;:&quot;8635d9de-4b28-3054-a438-aae5e590616c&quot;,&quot;_R&quot;:&quot;http://localhost:44300/PublicPlaylists&quot;,&quot;rid&quot;:&quot;8a6888dd-479f-4c8a-8e1d-4aa5bef979ac&quot;,&quot;pvid&quot;:&quot;cac2dd90-20f3-481f-9e03-8c58d5879823&quot;,&quot;_ex&quot;:&quot;1&quot;,&quot;usergenf&quot;:&quot;1&quot;,&quot;yadm&quot;:&quot;d&quot;,&quot;yadt&quot;:&quot;insbeacon&quot;,&quot;A_&quot;:&quot;1&quot;},&quot;_ts&quot;:1417003746,&quot;lv&quot;:[]}],&quot;yrid&quot;:&quot;&quot;,&quot;optout&quot;:&quot;0&quot;,&quot;nol&quot;:&quot;0&quot;}'" RecordedValue="select * from x where a = '{&quot;bp&quot;:{&quot;_pl&quot;:1,&quot;A_v&quot;:&quot;3.21&quot;,&quot;_R&quot;:&quot;http://www.last.fm/music/Korn/See+You+on+the+Other+Side&quot;,&quot;_bt&quot;:&quot;rapid&quot;},&quot;r&quot;:[{&quot;t&quot;:&quot;pv&quot;,&quot;s&quot;:&quot;1197743274&quot;,&quot;pp&quot;:{&quot;A_sid&quot;:&quot;Hg9kDdBVEfVvfgXn&quot;,&quot;_w&quot;:&quot;http://www.last.fm/music/Korn/See+You+on+the+Other+Side&quot;,&quot;prtnr&quot;:&quot;567b43b9-9702-3255-a87e-c0178e2e467f&quot;,&quot;pubid&quot;:&quot;8635d9de-4b28-3054-a438-aae5e590616c&quot;,&quot;_R&quot;:&quot;http://localhost:44300/PublicPlaylists&quot;,&quot;rid&quot;:&quot;8a6888dd-479f-4c8a-8e1d-4aa5bef979ac&quot;,&quot;pvid&quot;:&quot;cac2dd90-20f3-481f-9e03-8c58d5879823&quot;,&quot;_ex&quot;:&quot;1&quot;,&quot;usergenf&quot;:&quot;1&quot;,&quot;yadm&quot;:&quot;d&quot;,&quot;yadt&quot;:&quot;insbeacon&quot;,&quot;A_&quot;:&quot;1&quot;},&quot;_ts&quot;:1417003746,&quot;lv&quot;:[]}],&quot;yrid&quot;:&quot;&quot;,&quot;optout&quot;:&quot;0&quot;,&quot;nol&quot;:&quot;0&quot;}'" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="b241ca07-b4bb-44fa-aed2-110a4d782538" Version="1.1" Url="https://geo.query.yahoo.com/v1/public/yql" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://s.yimg.com/uq/syndication/yad-iframe.c0ba710.html" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="yhlVer" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlClient" Value="rapid" RecordedValue="rapid" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlS" Value="1197743274" RecordedValue="1197743274" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlUA" Value="ie11" RecordedValue="ie11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlCT" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlBTMS" Value="1417003746735" RecordedValue="1417003746735" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlClientVer" Value="3.21" RecordedValue="3.21" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlRnd" Value="UZTZ2HCfffrwQMwg" RecordedValue="UZTZ2HCfffrwQMwg" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yhlCompressed" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="q" Value="select * from x where a = '{&quot;bp&quot;:{&quot;_pl&quot;:1,&quot;A_v&quot;:&quot;3.21&quot;,&quot;_R&quot;:&quot;http://www.last.fm/music/Korn/See+You+on+the+Other+Side&quot;,&quot;_bt&quot;:&quot;rapid&quot;},&quot;r&quot;:[{&quot;t&quot;:&quot;pv&quot;,&quot;s&quot;:&quot;1197743274&quot;,&quot;pp&quot;:{&quot;A_sid&quot;:&quot;rmOfgNs2jL2OLb4o&quot;,&quot;_w&quot;:&quot;http://www.last.fm/music/Korn/See+You+on+the+Other+Side&quot;,&quot;prtnr&quot;:&quot;ce99866f-61ce-3bb5-8afb-fd59efbd2dd9&quot;,&quot;pubid&quot;:&quot;8635d9de-4b28-3054-a438-aae5e590616c&quot;,&quot;_R&quot;:&quot;http://localhost:44300/PublicPlaylists&quot;,&quot;rid&quot;:&quot;97253a08-c37a-466e-b2d3-d031dd20cf2a&quot;,&quot;pvid&quot;:&quot;cac2dd90-20f3-481f-9e03-8c58d5879823&quot;,&quot;_ex&quot;:&quot;1&quot;,&quot;usergenf&quot;:&quot;1&quot;,&quot;yadm&quot;:&quot;d&quot;,&quot;yadt&quot;:&quot;srcarousel&quot;,&quot;ccode&quot;:&quot;new_base_allpubs_tanh_norm_up_les_pop_cf2.ce99866f-61ce-3bb5-8afb-fd59efbd2dd9&quot;,&quot;A_&quot;:&quot;1&quot;},&quot;_ts&quot;:1417003746,&quot;lv&quot;:[]}],&quot;yrid&quot;:&quot;&quot;,&quot;optout&quot;:&quot;0&quot;,&quot;nol&quot;:&quot;0&quot;}'" RecordedValue="select * from x where a = '{&quot;bp&quot;:{&quot;_pl&quot;:1,&quot;A_v&quot;:&quot;3.21&quot;,&quot;_R&quot;:&quot;http://www.last.fm/music/Korn/See+You+on+the+Other+Side&quot;,&quot;_bt&quot;:&quot;rapid&quot;},&quot;r&quot;:[{&quot;t&quot;:&quot;pv&quot;,&quot;s&quot;:&quot;1197743274&quot;,&quot;pp&quot;:{&quot;A_sid&quot;:&quot;rmOfgNs2jL2OLb4o&quot;,&quot;_w&quot;:&quot;http://www.last.fm/music/Korn/See+You+on+the+Other+Side&quot;,&quot;prtnr&quot;:&quot;ce99866f-61ce-3bb5-8afb-fd59efbd2dd9&quot;,&quot;pubid&quot;:&quot;8635d9de-4b28-3054-a438-aae5e590616c&quot;,&quot;_R&quot;:&quot;http://localhost:44300/PublicPlaylists&quot;,&quot;rid&quot;:&quot;97253a08-c37a-466e-b2d3-d031dd20cf2a&quot;,&quot;pvid&quot;:&quot;cac2dd90-20f3-481f-9e03-8c58d5879823&quot;,&quot;_ex&quot;:&quot;1&quot;,&quot;usergenf&quot;:&quot;1&quot;,&quot;yadm&quot;:&quot;d&quot;,&quot;yadt&quot;:&quot;srcarousel&quot;,&quot;ccode&quot;:&quot;new_base_allpubs_tanh_norm_up_les_pop_cf2.ce99866f-61ce-3bb5-8afb-fd59efbd2dd9&quot;,&quot;A_&quot;:&quot;1&quot;},&quot;_ts&quot;:1417003746,&quot;lv&quot;:[]}],&quot;yrid&quot;:&quot;&quot;,&quot;optout&quot;:&quot;0&quot;,&quot;nol&quot;:&quot;0&quot;}'" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="0383f8c2-a809-4835-8453-ed51db82d721" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="ht" RecordedValue="ht" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="997b4d5c-cb6a-41e6-9240-51b1b9d9bd2b" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="htt" RecordedValue="htt" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e356d89a-2266-41c8-ac35-40e111c54f74" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http" RecordedValue="http" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="8c968ee4-fa25-416f-8f03-4061e6d50e05" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A" RecordedValue="http%3A" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="11ad65bd-e67b-4426-a01b-e4d121135b4c" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2F" RecordedValue="http%3A%2F%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="398" RecordedValue="398" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="2da6caa1-02b9-4acd-9b3a-27dbbdb0f6aa" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Flocal" RecordedValue="http%3A%2F%2Flocal" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="398" RecordedValue="398" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="28ba1021-fce5-4ee3-a0e8-3d811c4c337d" Version="1.1" Url="http://localhost:44300/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="025bd8c0-efd2-48e1-ad55-366470e729d8" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="ht" RecordedValue="ht" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="31713df4-0e61-44cb-9d13-fb1267cd88c2" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="htt" RecordedValue="htt" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="1eb27e69-b50a-46aa-b476-87c8e28d49ea" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http" RecordedValue="http" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="eb30bbaa-4cff-42e7-ba63-8051a09d8899" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A" RecordedValue="http%3A" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="53bc998a-b3b0-489d-8f2a-08b275b3a148" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2F" RecordedValue="http%3A%2F%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="acba90e8-100d-49b1-938c-f26e88fd650c" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Fl" RecordedValue="http%3A%2F%2Fl" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="7ac797b6-7c79-4cb6-b504-d8eec3f5b4c5" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Flocal" RecordedValue="http%3A%2F%2Flocal" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="398" RecordedValue="398" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="8b47cd62-9e49-4c87-b6be-dfb129683644" Version="1.1" Url="http://localhost:44300/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost:44300/PublicPlaylists" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="a670c535-d091-4c90-9b93-b74939e35daa" Version="1.1" Url="http://localhost:44300/api/playlists/image/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="bddcde41-1d20-4163-ba62-868030d95c29" Version="1.1" Url="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="d3bc5e13-0378-4418-a821-7bdeea4317e3" Version="1.1" Url="http://localhost:44300/api/playlists/genres" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="id" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam5040.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam5052.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam5073.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam5085.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam5106.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam5127.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam5148.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam5160.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="aba875c8-8077-456d-a755-c0bc57c0e6b5" Version="1.1" Url="http://localhost:44300/signalr/negotiate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1417004066641" RecordedValue="1417004066641" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="14b0d72e-65d1-418a-8d4c-1f9e93fe6df6" Version="1.1" Url="http://localhost:1226/cc2d42f3d06d434da686d03f4fea6bc6/arterySignalR/negotiate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/x-www-form-urlencoded; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.3" RecordedValue="1.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1417004066864" RecordedValue="1417004066864" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="GET" Guid="8d9c3b93-728a-4e8b-a7cc-3dc783ba64e8" Version="1.1" Url="http://localhost:44300/signalr/start" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="RoitEqK%2FLEPTaBgff0%2FzIxMUQSSGax4AbiODrV6SbpYnEaosOaQ6CNXT7FsKbnGlxQoS95xClDPXT7KgkQlemGKa9dASl2SpWrOKkQLukFdZ4w8fRTKJ6nJ99qLvTk3Q" RecordedValue="RoitEqK%2FLEPTaBgff0%2FzIxMUQSSGax4AbiODrV6SbpYnEaosOaQ6CNXT7FsKbnGlxQoS95xClDPXT7KgkQlemGKa9dASl2SpWrOKkQLukFdZ4w8fRTKJ6nJ99qLvTk3Q" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1417004066642" RecordedValue="1417004066642" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="2cdfee9a-d6b5-4ce7-bf89-4aadf3cca396" Version="1.1" Url="http://localhost:44300/__browserLink/requestData/729c6e6e4f3a4bfda764a243efa7c6f0" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c8e13a76-d6c3-4d79-95e7-271eecc7cf71" Version="1.1" Url="http://localhost:44300/PublicPlaylists/_PlaylistTracks" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="curPlaylist" Value="%7B%22PlaylistId%22%3A%221%22%2C%22PlaylistName%22%3A%22Test+PL+%22%2C%22LikesCount%22%3A%220%22%2C%22FavouritesCount%22%3A%220%22%7D" RecordedValue="%7B%22PlaylistId%22%3A%221%22%2C%22PlaylistName%22%3A%22Test+PL+%22%2C%22LikesCount%22%3A%220%22%2C%22FavouritesCount%22%3A%220%22%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="d5436850-116c-41c7-ae98-12dccafcc86c" Version="1.1" Url="http://localhost:44300/api/playlists/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e8f7bde8-3b1c-4704-9882-8d5ced4e9b66" Version="1.1" Url="http://localhost:44300/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="f766d660-32bb-4c72-8895-504d0eea9865" Version="1.1" Url="http://localhost:44300/api/playlists/raiselistened" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="id" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="7e75c9b6-2acd-488c-baa9-81cda45824b4" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam5040.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="f5412874-7077-4bfa-8ce9-8e36b512cacb" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam5052.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154613%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154613%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="6f23ca6d-5407-4f8d-902c-840d8d127ac3" Version="1.1" Url="http://cs7-3v4.vk-cdn.net/p9/16b92e07a3c5e5.mp3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="If-Match" Value="&quot;4c2c5830-7c5c3d&quot;" />
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="zo_KblYKpvpEkD4HVzH5AhJb_m8P7uMhE4BCYSKUUUpYx0oi8OK4hJvXzAknp6ocs74iW73yrufYtXnwvyc-NnE6eHpiGxU" RecordedValue="zo_KblYKpvpEkD4HVzH5AhJb_m8P7uMhE4BCYSKUUUpYx0oi8OK4hJvXzAknp6ocs74iW73yrufYtXnwvyc-NnE6eHpiGxU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="b34d9a25-b6dc-42b4-9093-e66c29096a4f" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam5073.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22317214666%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22317214666%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="1451ee47-8691-4571-a1e3-9aa2a08bd947" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam5085.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22317214666%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22317214666%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="802f4ae4-c815-4865-b0f6-da0934d04c69" Version="1.1" Url="http://cs7-5v4.vk-cdn.net/p19/a3ec7f7b300b8c.mp3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="If-Match" Value="&quot;538d5845-46e40f&quot;" />
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="OKDR5XnlPv-lRlJBUHFAxElVFukYdLa4-Q9g8mu46_8zU9Hqq1qk6BIXQrdOW0ypD-K2zEZ2u23v4eFh3MMTfL9O1zhtYRw" RecordedValue="OKDR5XnlPv-lRlJBUHFAxElVFukYdLa4-Q9g8mu46_8zU9Hqq1qk6BIXQrdOW0ypD-K2zEZ2u23v4eFh3MMTfL9O1zhtYRw" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="feade892-9d4a-47c3-8dce-6c16c888d6e7" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam5106.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154613%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154613%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="bda65804-c98f-4be9-a1c8-10ecf01d7f78" Version="1.1" Url="http://cs7-3v4.vk-cdn.net/p9/7616c85863e556.mp3" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="If-Match" Value="&quot;5412a60d-5a3c72&quot;" />
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="gz8uYjgJ0bZvViYBlIvQgw9O5QstHm7cPkS7YHuk5XCNOvRyRTsJr1ME0mw1-53EU4UCUBZZg2ITW8xBHbH1cExtpp11CfU" RecordedValue="gz8uYjgJ0bZvViYBlIvQgw9O5QstHm7cPkS7YHuk5XCNOvRyRTsJr1ME0mw1-53EU4UCUBZZg2ITW8xBHbH1cExtpp11CfU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="3871c978-40c2-4632-8bb9-d7fe8aa7d77b" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam5127.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154613%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154613%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="f9bac0ba-190e-423a-8375-55f6e6c1cec6" Version="1.1" Url="http://cs7-3v4.vk-cdn.net/p9/16b92e07a3c5e5.mp3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="If-Match" Value="&quot;4c2c5830-7c5c3d&quot;" />
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="zo_KblYKpvpEkD4HVzH5AhJb_m8P7uMhE4BCYSKUUUpYx0oi8OK4hJvXzAknp6ocs74iW73yrufYtXnwvyc-NnE6eHpiGxU" RecordedValue="zo_KblYKpvpEkD4HVzH5AhJb_m8P7uMhE4BCYSKUUUpYx0oi8OK4hJvXzAknp6ocs74iW73yrufYtXnwvyc-NnE6eHpiGxU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="443f9e9a-a4a1-4109-acac-b7cc4e71275f" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam5148.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22317214666%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22317214666%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="3675ac40-f95a-4304-bc75-366a09542ce7" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam5160.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22317214666%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22317214666%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="38af1dee-ed25-4a7a-bc79-aec2fbac769d" Version="1.1" Url="http://localhost:44300/api/usertracks/trackinfo" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="artist" Value="Korn+" RecordedValue="Korn+" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackName" Value="Kiss" RecordedValue="Kiss" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

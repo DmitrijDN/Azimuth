@@ -1,0 +1,1421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest5" Id="46b7f2b0-90cd-4d9b-9109-84907dfff52f" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest5.b74046b3-c50b-45f6-a35a-e0380f487519.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="6c03e4dd-3ad3-4055-b619-100bb21021f8" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="l" RecordedValue="l" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="edaf2555-7aa3-4fa9-9a88-490f853f4788" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="loca" RecordedValue="loca" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS02" RecordedValue="IESS02" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="7b2fe743-2d72-4373-8079-f295f1b4d952" Version="1.1" Url="http://localhost:44300/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost:44300/PublicPlaylists" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="e1aabeb4-d14d-408a-85ba-c3e30f78ca31" Version="1.1" Url="http://localhost:44300/api/playlists/image/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="3ac342c7-9045-4003-98df-e0e4d4d5abff" Version="1.1" Url="http://localhost:44300/api/playlists/image/6" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="860f006d-366f-49ea-9796-52cf31c15c22" Version="1.1" Url="http://localhost:44300/api/playlists/image/2" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="6daa29c5-2b94-46b1-abd3-9b43236ca4fd" Version="1.1" Url="http://localhost:44300/api/playlists/image/3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="484b3caf-e1a9-4fcf-b2c7-1bc53631d87a" Version="1.1" Url="http://localhost:44300/api/playlists/image/4" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="c24a52d1-44c7-433f-be8b-ac8d85e692c7" Version="1.1" Url="http://localhost:44300/api/playlists/image/5" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="a9ff5aa4-3298-4487-9f97-d7ed8065e1bd" Version="1.1" Url="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="26b2afaf-42ed-4b00-932e-68d220ab0f03" Version="1.1" Url="http://localhost:44300/api/playlists/genres" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="id" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam140.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam148.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="64cc56df-9aaa-4585-937e-9ed0d3ca52ff" Version="1.1" Url="http://localhost:44300/signalr/negotiate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072220861" RecordedValue="1419072220861" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="f7fb4a72-a70e-42d7-bb94-791d60679fb6" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/negotiate" ThinkTime="25" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/x-www-form-urlencoded; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.3" RecordedValue="1.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072221139" RecordedValue="1419072221139" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="GET" Guid="ee593082-15f4-4ca9-8eac-6a3af087d80a" Version="1.1" Url="http://localhost:44300/Account/Login" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="der=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&gt;&lt;/i" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="210a474c-85b1-4463-84b3-1f1c9341f914" Version="1.1" Url="http://localhost:44300/signalr/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="sj0gLx8smsqx0afBAgG5NG1%2BhIKhXj5YvFL%2BOqmqpDw26ophqDnLEBGNkiCK41uy1x3lYQzceSaNdxLGw0C1b7L%2Fyn6IUBzVh6D%2Bf6W4P0TH1%2BS52a79rz3Z4xY3ezlF" RecordedValue="sj0gLx8smsqx0afBAgG5NG1%2BhIKhXj5YvFL%2BOqmqpDw26ophqDnLEBGNkiCK41uy1x3lYQzceSaNdxLGw0C1b7L%2Fyn6IUBzVh6D%2Bf6W4P0TH1%2BS52a79rz3Z4xY3ezlF" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="6" RecordedValue="6" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="edfbefdd-50b6-4de4-8c85-d6203f6de86d" Version="1.1" Url="http://localhost:44300/signalr/start" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="sj0gLx8smsqx0afBAgG5NG1%2BhIKhXj5YvFL%2BOqmqpDw26ophqDnLEBGNkiCK41uy1x3lYQzceSaNdxLGw0C1b7L%2Fyn6IUBzVh6D%2Bf6W4P0TH1%2BS52a79rz3Z4xY3ezlF" RecordedValue="sj0gLx8smsqx0afBAgG5NG1%2BhIKhXj5YvFL%2BOqmqpDw26ophqDnLEBGNkiCK41uy1x3lYQzceSaNdxLGw0C1b7L%2Fyn6IUBzVh6D%2Bf6W4P0TH1%2BS52a79rz3Z4xY3ezlF" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072220862" RecordedValue="1419072220862" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="4925e4c7-9401-4061-93d9-cb3fa968e7f0" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAACGt1SNFeMmDjrtypnxcYewflXb7MrGaZTqh0i4OgHurwAAAAAOgAAAAAIAACAAAABSId7ovMlp2t8182YoXFU%2FAMWaZ3E7oz8UFj0u5YN4jTAAAABNgsT6AMTe5ob9wQX84Jw%2FKLyZyIaWYM82otzpIbyu4kgSGS5o8a%2BsdMx%2F%2FeQ0Yq5AAAAA0HlXc7T8iZx9bk7avysMYHf7V2UwEZbnYV7cb5%2BDObm4OJ%2FtYpFUaMPzj%2F0K%2BiSdg8NIRTjSbaCL1%2BeSE6%2BdDQ%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAACGt1SNFeMmDjrtypnxcYewflXb7MrGaZTqh0i4OgHurwAAAAAOgAAAAAIAACAAAABSId7ovMlp2t8182YoXFU%2FAMWaZ3E7oz8UFj0u5YN4jTAAAABNgsT6AMTe5ob9wQX84Jw%2FKLyZyIaWYM82otzpIbyu4kgSGS5o8a%2BsdMx%2F%2FeQ0Yq5AAAAA0HlXc7T8iZx9bk7avysMYHf7V2UwEZbnYV7cb5%2BDObm4OJ%2FtYpFUaMPzj%2F0K%2BiSdg8NIRTjSbaCL1%2BeSE6%2BdDQ%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="56eb613e-3418-46a8-ba8e-70270bc3807d" Version="1.1" Url="http://localhost:44300/__browserLink/requestData/5f90277b67a44711b8625ba36d1a6f56" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="00a93ee0-7e0a-45a2-8b06-591fd110f13a" Version="1.1" Url="http://localhost:44300/PublicPlaylists/_PlaylistTracks" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam375.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="'" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="curPlaylist" Value="%7B%22PlaylistId%22%3A%221%22%2C%22PlaylistName%22%3A%22Test+PL+%22%2C%22LikesCount%22%3A%221%22%2C%22FavouritesCount%22%3A%221%22%7D" RecordedValue="%7B%22PlaylistId%22%3A%221%22%2C%22PlaylistName%22%3A%22Test+PL+%22%2C%22LikesCount%22%3A%221%22%2C%22FavouritesCount%22%3A%221%22%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="ccb9f6ae-7812-4c56-8dd7-977beb25c17a" Version="1.1" Url="http://localhost:44300/api/playlists/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="9cfbaa7a-fec3-4628-a74c-17932c4d2502" Version="1.1" Url="http://localhost:44300/fonts/glyphicons-halflings-regular.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="4acd3afa-3f10-434b-83a8-4379367166ac" Version="1.1" Url="http://localhost:44300/api/playlists/raiselistened" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="id" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="3974cfb1-d0d6-4c07-bdb9-391a03d42e5e" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam140.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154616%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="7ac908b3-3048-413e-be26-7a8835a9ee01" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam148.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154613%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154613%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c04b1b13-d17f-421e-9495-c99bdd3365e7" Version="1.1" Url="http://cs7-3v4.vk-cdn.net/p9/651423a13ac3ea.mp3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="dHAcRzh2vf2O0PIwAzWFWMmiomxjhDT3mvrt69fZ2zMWiBOHvawzRysrJ5xkN-K-RLeVpZquBWRm1iH6SAfCWVo9uAHO6VY" RecordedValue="dHAcRzh2vf2O0PIwAzWFWMmiomxjhDT3mvrt69fZ2zMWiBOHvawzRysrJ5xkN-K-RLeVpZquBWRm1iH6SAfCWVo9uAHO6VY" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="dc341c80-937f-492e-8fe9-4edaa29235cf" Version="1.1" Url="http://localhost:44300/api/usertracks/trackinfo" ThinkTime="6" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="artist" Value="Korn+" RecordedValue="Korn+" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackName" Value="Kiss" RecordedValue="Kiss" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="6419cd01-5a46-40d8-bcdc-84e3d7456b0e" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/abort" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAACGt1SNFeMmDjrtypnxcYewflXb7MrGaZTqh0i4OgHurwAAAAAOgAAAAAIAACAAAABSId7ovMlp2t8182YoXFU%2FAMWaZ3E7oz8UFj0u5YN4jTAAAABNgsT6AMTe5ob9wQX84Jw%2FKLyZyIaWYM82otzpIbyu4kgSGS5o8a%2BsdMx%2F%2FeQ0Yq5AAAAA0HlXc7T8iZx9bk7avysMYHf7V2UwEZbnYV7cb5%2BDObm4OJ%2FtYpFUaMPzj%2F0K%2BiSdg8NIRTjSbaCL1%2BeSE6%2BdDQ%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAACGt1SNFeMmDjrtypnxcYewflXb7MrGaZTqh0i4OgHurwAAAAAOgAAAAAIAACAAAABSId7ovMlp2t8182YoXFU%2FAMWaZ3E7oz8UFj0u5YN4jTAAAABNgsT6AMTe5ob9wQX84Jw%2FKLyZyIaWYM82otzpIbyu4kgSGS5o8a%2BsdMx%2F%2FeQ0Yq5AAAAA0HlXc7T8iZx9bk7avysMYHf7V2UwEZbnYV7cb5%2BDObm4OJ%2FtYpFUaMPzj%2F0K%2BiSdg8NIRTjSbaCL1%2BeSE6%2BdDQ%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="POST" Guid="4fa62a7b-2c21-49d3-acec-9cf726b011e6" Version="1.1" Url="http://localhost:44300/signalr/abort" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="sj0gLx8smsqx0afBAgG5NG1%2BhIKhXj5YvFL%2BOqmqpDw26ophqDnLEBGNkiCK41uy1x3lYQzceSaNdxLGw0C1b7L%2Fyn6IUBzVh6D%2Bf6W4P0TH1%2BS52a79rz3Z4xY3ezlF" RecordedValue="sj0gLx8smsqx0afBAgG5NG1%2BhIKhXj5YvFL%2BOqmqpDw26ophqDnLEBGNkiCK41uy1x3lYQzceSaNdxLGw0C1b7L%2Fyn6IUBzVh6D%2Bf6W4P0TH1%2BS52a79rz3Z4xY3ezlF" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <StringHttpBody ContentType="application/json; charset=UTF-8" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="b9e7b97c-f3dc-44ed-8230-e5297566d5d9" Version="1.1" Url="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:44300/Account/Login" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="15fecdba-c899-407f-b898-f686008fe516" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/negotiate" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/x-www-form-urlencoded; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/Account/Login" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FAccount%2FLogin" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FAccount%2FLogin" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.3" RecordedValue="1.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072248358" RecordedValue="1419072248358" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="POST" Guid="37f17f0b-884f-4403-8ecb-7bef6d58175c" Version="1.1" Url="http://localhost:44300/Account/ExternalLogin" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://oauth.vk.com/authorize?client_id=4555819&amp;redirect_uri=http%3A%2F%2Flocalhost%3A44300%2Fsignin-vkontakte&amp;scope=audio%2Cemail%2C%20offline&amp;response_type=code&amp;v=5.21" ReportingName="" IgnoreHttpStatusCode="False">
+      <FormPostHttpBody>
+        <FormPostParameter Name="__RequestVerificationToken" Value="{{$HIDDEN1.__RequestVerificationToken}}" RecordedValue="8m3sK0DeiU2A8g5XqSRG71DFn73uUd-Q-cyVTrOqvMSJ47smMJVBn784o3WXbzVLeZSrjPCPG2OVwUvNwqWbSsOyBFlZHwhlZvNjE2BEEEM1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{FormPostParam1.provider}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="f12c36fc-152c-4cc0-9585-c00bd0f82b69" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAABR1bwImx%2FOgOBecNgtSQFaUINGgaxZa6HVEUnAv%2FnrvwAAAAAOgAAAAAIAACAAAACC3X8s02CTKbsna1QNu2B3z3P6sDj7tIoXN4TRw47%2FwzAAAADOZbG9KaQjm2BuapzB0xl%2BnPQtwFc0GtF2ut2z%2FrGHtaQqoy7jb9kDJeWxKZcL8EBAAAAAsKLoCfjvpptQB%2BFMIuFshspaFgwNGr58Y7LYVdWZn41kkAdGehLY%2BGh8USuWu6R%2BaMXXtotNWYlmbVhmwJJ5Pw%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAABR1bwImx%2FOgOBecNgtSQFaUINGgaxZa6HVEUnAv%2FnrvwAAAAAOgAAAAAIAACAAAACC3X8s02CTKbsna1QNu2B3z3P6sDj7tIoXN4TRw47%2FwzAAAADOZbG9KaQjm2BuapzB0xl%2BnPQtwFc0GtF2ut2z%2FrGHtaQqoy7jb9kDJeWxKZcL8EBAAAAAsKLoCfjvpptQB%2BFMIuFshspaFgwNGr58Y7LYVdWZn41kkAdGehLY%2BGh8USuWu6R%2BaMXXtotNWYlmbVhmwJJ5Pw%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FAccount%2FLogin" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FAccount%2FLogin" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="595768db-c821-44fa-8cc1-7354d28e8018" Version="1.1" Url="http://localhost:44300/__browserLink/requestData/b8801ef38ec746aa9f5fa8bc6b62e85d" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Account/Login" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="5d078be7-ad69-46a8-adee-6b6ebb57b898" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/abort" ThinkTime="30" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/Account/Login" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAABR1bwImx%2FOgOBecNgtSQFaUINGgaxZa6HVEUnAv%2FnrvwAAAAAOgAAAAAIAACAAAACC3X8s02CTKbsna1QNu2B3z3P6sDj7tIoXN4TRw47%2FwzAAAADOZbG9KaQjm2BuapzB0xl%2BnPQtwFc0GtF2ut2z%2FrGHtaQqoy7jb9kDJeWxKZcL8EBAAAAAsKLoCfjvpptQB%2BFMIuFshspaFgwNGr58Y7LYVdWZn41kkAdGehLY%2BGh8USuWu6R%2BaMXXtotNWYlmbVhmwJJ5Pw%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAABR1bwImx%2FOgOBecNgtSQFaUINGgaxZa6HVEUnAv%2FnrvwAAAAAOgAAAAAIAACAAAACC3X8s02CTKbsna1QNu2B3z3P6sDj7tIoXN4TRw47%2FwzAAAADOZbG9KaQjm2BuapzB0xl%2BnPQtwFc0GtF2ut2z%2FrGHtaQqoy7jb9kDJeWxKZcL8EBAAAAAsKLoCfjvpptQB%2BFMIuFshspaFgwNGr58Y7LYVdWZn41kkAdGehLY%2BGh8USuWu6R%2BaMXXtotNWYlmbVhmwJJ5Pw%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FAccount%2FLogin" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FAccount%2FLogin" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="GET" Guid="c1d18dd5-256e-42dd-9708-4e96abde2fe9" Version="1.1" Url="https://oauth.vk.com/authorize" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost:44300/signin-vkontakte?code=059e26553435a49a6f" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="client_id" Value="4555819" RecordedValue="4555819" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="redirect_uri" Value="http%3A%2F%2Flocalhost%3A44300%2Fsignin-vkontakte" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2Fsignin-vkontakte" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="scope" Value="audio%2Cemail%2C%20offline" RecordedValue="audio%2Cemail%2C%20offline" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="response_type" Value="code" RecordedValue="code" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="v" Value="5.21" RecordedValue="5.21" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="0609c69a-1a85-4a01-ada0-cf2d02fb86ff" Version="1.1" Url="http://localhost:44300/signin-vkontakte" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost:44300/Music" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="351754e6-996e-4dfe-98ef-aa2cb668e9cb" Version="1.1" Url="http://localhost:44300/signalr/hubs" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:44300/Music" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="5f2d78c3-8175-4ea8-b571-d0ad46892c38" Version="1.1" Url="http://localhost:44300/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:44300/Music" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="3f557d76-c6bf-458a-800c-90679cd68a0e" Version="1.1" Url="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:44300/Music" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="0cf09973-ac3f-4686-be9a-f4e004f4c274" Version="1.1" Url="http://localhost:44300/api/playlists" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/Music" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="7bad94d9-780f-496d-9ee7-cf2ec8ca7b74" Version="1.1" Url="http://localhost:44300/api/usertracks" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/Music" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam375.provider}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <QueryStringParameters>
+        <QueryStringParameter Name="code" Value="059e26553435a49a6f" RecordedValue="059e26553435a49a6f" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="4dde40ab-7351-4640-adbf-d30f392afee0" Version="1.1" Url="http://localhost:44300/signalr/negotiate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072252351" RecordedValue="1419072252351" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="7eee690a-a5ed-42ff-b171-508676c5d6f1" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/negotiate" ThinkTime="23" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/x-www-form-urlencoded; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FMusic" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FMusic" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.3" RecordedValue="1.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072253580" RecordedValue="1419072253580" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="GET" Guid="ef6309e8-e1f5-415e-b44d-785e685e8b50" Version="1.1" Url="http://localhost:44300/PublicPlaylists" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam524.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam531.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="3fd7c6ea-8480-4db4-98f5-d7a7b82a0e5e" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAABg98Pz7BKThv9Iz2Ii7yljdOl3eRqU3k%2FbtrMQelNT%2FAAAAAAOgAAAAAIAACAAAADH062fzlQDVAMgeSdAgnOhLYFG0s%2Fgq3U15QCE5C2nRjAAAACAj6258U%2BYQ4vFXEgO1iTMOkKeZV0PGY3Dpfumx6G5BCR%2F9XBTE5VLNUx4qSAwpvxAAAAAwHz4HWwwf7nE1a2gkSZH19keHy%2BkFBFAKa%2ByUkyLo7t1BzjEFh6tm3xQZMclSqGICsb1C4zk%2BGfcI2UwWT5hCg%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAABg98Pz7BKThv9Iz2Ii7yljdOl3eRqU3k%2FbtrMQelNT%2FAAAAAAOgAAAAAIAACAAAADH062fzlQDVAMgeSdAgnOhLYFG0s%2Fgq3U15QCE5C2nRjAAAACAj6258U%2BYQ4vFXEgO1iTMOkKeZV0PGY3Dpfumx6G5BCR%2F9XBTE5VLNUx4qSAwpvxAAAAAwHz4HWwwf7nE1a2gkSZH19keHy%2BkFBFAKa%2ByUkyLo7t1BzjEFh6tm3xQZMclSqGICsb1C4zk%2BGfcI2UwWT5hCg%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FMusic" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FMusic" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="7112d397-21c2-41b1-867b-7b8583c7b06b" Version="1.1" Url="http://localhost:44300/signalr/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="jC2v0K9rlfcXMN3TskL1rpFXBdPqhIeViSUNG6GnnFV%2F8rzSqSzVJv0TydJd3gtCrJzhv1R8Ef4LNpmgMOR0lYcnSQpeVc3fyOz%2F0sdBSxr4Ew%2BHyHNYtw3uKwNOSFxZSqOFRgGA9L3p3G34J24v2Z1HZyi3pcnkP1ea9rlnP%2Fc%3D" RecordedValue="jC2v0K9rlfcXMN3TskL1rpFXBdPqhIeViSUNG6GnnFV%2F8rzSqSzVJv0TydJd3gtCrJzhv1R8Ef4LNpmgMOR0lYcnSQpeVc3fyOz%2F0sdBSxr4Ew%2BHyHNYtw3uKwNOSFxZSqOFRgGA9L3p3G34J24v2Z1HZyi3pcnkP1ea9rlnP%2Fc%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="b46c8210-3b35-4cb3-8b8f-02447617744b" Version="1.1" Url="http://localhost:44300/signalr/start" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="jC2v0K9rlfcXMN3TskL1rpFXBdPqhIeViSUNG6GnnFV%2F8rzSqSzVJv0TydJd3gtCrJzhv1R8Ef4LNpmgMOR0lYcnSQpeVc3fyOz%2F0sdBSxr4Ew%2BHyHNYtw3uKwNOSFxZSqOFRgGA9L3p3G34J24v2Z1HZyi3pcnkP1ea9rlnP%2Fc%3D" RecordedValue="jC2v0K9rlfcXMN3TskL1rpFXBdPqhIeViSUNG6GnnFV%2F8rzSqSzVJv0TydJd3gtCrJzhv1R8Ef4LNpmgMOR0lYcnSQpeVc3fyOz%2F0sdBSxr4Ew%2BHyHNYtw3uKwNOSFxZSqOFRgGA9L3p3G34J24v2Z1HZyi3pcnkP1ea9rlnP%2Fc%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072252352" RecordedValue="1419072252352" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="58e32679-96d9-4561-91f5-ddf374858672" Version="1.1" Url="http://localhost:44300/__browserLink/requestData/398f3163cf764593a3f9cae4985304a0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e8ff4583-a567-4c8d-a3ac-6481c0196c77" Version="1.1" Url="http://localhost:44300/api/playlists/image/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="9001974b-4c0b-43c3-a388-8c235b8eff5f" Version="1.1" Url="http://localhost:44300/api/playlists/image/2" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="634a2bd8-7669-4d49-b45b-073a76074cfc" Version="1.1" Url="http://localhost:44300/api/playlists/image/3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="91405b9b-9c44-4973-8132-119f3f850eec" Version="1.1" Url="http://localhost:44300/api/playlists/image/4" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f2cfa483-c4ff-48f4-ac45-3a9623eb3d5b" Version="1.1" Url="http://localhost:44300/api/playlists/image/5" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="762c2898-276a-452e-833f-ec883f45d3a4" Version="1.1" Url="http://localhost:44300/api/playlists/favorite/notOwned" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="0b247be0-c496-4d75-aaa0-543af55c5ba1" Version="1.1" Url="http://localhost:44300/api/playlists/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="18c01095-24eb-4af5-bba6-3d1264ee6226" Version="1.1" Url="http://localhost:44300/api/playlists/" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a277bf6c-2ae0-41b9-94c8-e42e4329b46c" Version="1.1" Url="http://localhost:44300/api/usertracks" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="playlistId" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="db440c70-18c1-42dd-9b63-4ed445f87892" Version="1.1" Url="http://localhost:44300/api/playlists/" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e1203927-b04f-43fe-b0f9-42c0f7dba161" Version="1.1" Url="http://localhost:44300/api/playlists/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="51153795-615c-49df-9c41-d10a05e250b8" Version="1.1" Url="http://localhost:44300/api/playlists/" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a3970d14-97c9-4590-9047-e19ebf57b425" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam524.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154613%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22323154613%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c38f4ce9-1d5a-4066-bf1f-c516f42ebc8a" Version="1.1" Url="http://localhost:44300/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam531.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22317214666%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22315957297%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22317214666%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="6144b3a8-5e58-4559-8052-d1d5e1a9a049" Version="1.1" Url="http://cs7-2v4.vk-cdn.net/p10/11c3ce239b5d06.mp3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="DzHwA80RiYaVFghjCksIcVdCZpqLeNkuqtkAKFz3V02vHUz9CqXuyB68YkAglfD3Vq4QDbtkbIVH-yjUbhn_0XyRNIegw5A" RecordedValue="DzHwA80RiYaVFghjCksIcVdCZpqLeNkuqtkAKFz3V02vHUz9CqXuyB68YkAglfD3Vq4QDbtkbIVH-yjUbhn_0XyRNIegw5A" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="880a59aa-efe3-4da7-b944-cdca75528e9f" Version="1.1" Url="http://localhost:44300/api/playlists/image/6" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a4be848b-cbc0-49bf-85c8-a5f0647f35cb" Version="1.1" Url="http://localhost:44300/api/playlists/image/1" ThinkTime="7" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="4fff0fcd-257f-491c-a95b-0e37cddf317e" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/abort" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAABg98Pz7BKThv9Iz2Ii7yljdOl3eRqU3k%2FbtrMQelNT%2FAAAAAAOgAAAAAIAACAAAADH062fzlQDVAMgeSdAgnOhLYFG0s%2Fgq3U15QCE5C2nRjAAAACAj6258U%2BYQ4vFXEgO1iTMOkKeZV0PGY3Dpfumx6G5BCR%2F9XBTE5VLNUx4qSAwpvxAAAAAwHz4HWwwf7nE1a2gkSZH19keHy%2BkFBFAKa%2ByUkyLo7t1BzjEFh6tm3xQZMclSqGICsb1C4zk%2BGfcI2UwWT5hCg%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAABg98Pz7BKThv9Iz2Ii7yljdOl3eRqU3k%2FbtrMQelNT%2FAAAAAAOgAAAAAIAACAAAADH062fzlQDVAMgeSdAgnOhLYFG0s%2Fgq3U15QCE5C2nRjAAAACAj6258U%2BYQ4vFXEgO1iTMOkKeZV0PGY3Dpfumx6G5BCR%2F9XBTE5VLNUx4qSAwpvxAAAAAwHz4HWwwf7nE1a2gkSZH19keHy%2BkFBFAKa%2ByUkyLo7t1BzjEFh6tm3xQZMclSqGICsb1C4zk%2BGfcI2UwWT5hCg%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FMusic" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FMusic" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="POST" Guid="96538be0-096f-46d0-bfba-b353f0aa0f64" Version="1.1" Url="http://localhost:44300/signalr/abort" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="jC2v0K9rlfcXMN3TskL1rpFXBdPqhIeViSUNG6GnnFV%2F8rzSqSzVJv0TydJd3gtCrJzhv1R8Ef4LNpmgMOR0lYcnSQpeVc3fyOz%2F0sdBSxr4Ew%2BHyHNYtw3uKwNOSFxZSqOFRgGA9L3p3G34J24v2Z1HZyi3pcnkP1ea9rlnP%2Fc%3D" RecordedValue="jC2v0K9rlfcXMN3TskL1rpFXBdPqhIeViSUNG6GnnFV%2F8rzSqSzVJv0TydJd3gtCrJzhv1R8Ef4LNpmgMOR0lYcnSQpeVc3fyOz%2F0sdBSxr4Ew%2BHyHNYtw3uKwNOSFxZSqOFRgGA9L3p3G34J24v2Z1HZyi3pcnkP1ea9rlnP%2Fc%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <StringHttpBody ContentType="application/json; charset=UTF-8" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="7ed64a85-c693-48d7-aa74-97f99d2372df" Version="1.1" Url="http://localhost:44300/api/playlists/image/6" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e4743b52-8260-4657-9f70-e67db7db8b5e" Version="1.1" Url="http://localhost:44300/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="6143000c-eb89-405d-a515-94bc33ff0527" Version="1.1" Url="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="0a9d036c-1759-4b02-8135-1d7be3a51e3a" Version="1.1" Url="http://localhost:44300/api/playlists/genres" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="id" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="611578d0-3f91-496b-bbb7-c86451e14123" Version="1.1" Url="http://localhost:44300/signalr/negotiate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072279159" RecordedValue="1419072279159" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="ecdf2b11-46fe-42fb-8bea-af85f729f791" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/negotiate" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/x-www-form-urlencoded; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.3" RecordedValue="1.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072279672" RecordedValue="1419072279672" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="GET" Guid="1f5a1220-d04a-4671-91d4-8a7860cf3d13" Version="1.1" Url="http://localhost:44300/UserProfile" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="fb750fdf-8eb7-4e76-8e43-0c3da0da576a" Version="1.1" Url="http://localhost:44300/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:44300/UserProfile" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="f68aae35-e9a8-4ddc-8356-95dc543358b5" Version="1.1" Url="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:44300/UserProfile" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="2bd981f0-c391-4c5d-b623-9625b4f224e0" Version="1.1" Url="http://localhost:44300/api/playlists/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/UserProfile" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="df67b458-c71b-4597-8048-206f899bfbc9" Version="1.1" Url="http://localhost:44300/api/notifications/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/UserProfile" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="846e37ac-2a85-409e-97df-41718878556b" Version="1.1" Url="http://localhost:44300/signalr/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="Q%2FvjBora6HATIDZft6eKmdXBalk0ZnHlCI3F8Aq0kDnjHpWa1xvBM%2F0Fqkw8OtburiRcJcHA31p52%2FWHytzR9uE4OWKQP5o7JsZomg%2FlPoRl6tr%2ByNkm13S6c3zZr2zP9Tn4q82%2Fql0O5SOtNYl%2FjKEcFhSFtX6eKyXqCQ1eBPI%3D" RecordedValue="Q%2FvjBora6HATIDZft6eKmdXBalk0ZnHlCI3F8Aq0kDnjHpWa1xvBM%2F0Fqkw8OtburiRcJcHA31p52%2FWHytzR9uE4OWKQP5o7JsZomg%2FlPoRl6tr%2ByNkm13S6c3zZr2zP9Tn4q82%2Fql0O5SOtNYl%2FjKEcFhSFtX6eKyXqCQ1eBPI%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="11cba6e2-e3df-4d9b-8778-a925dd3d0012" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAADA7ZnNx1GzJ%2BjJIlMsGkL9CdkKsEFcy3Ff%2FqoheeIUtwAAAAAOgAAAAAIAACAAAADNS43hnz2BoAfNR4HAzMJzBXVQLdjUaXTg9antOFRKqzAAAAARdQS0AAocx4hz%2FiCHZHX8dXWRfi%2F6lkLL4PuKdi6QagetEaRNWxyzhGmA66e2E3pAAAAAdjusKfx0jBo5iFaTyGWy%2FIRAAkcM%2FT3kjeaKkhID6XRrXZVtxnwli3bBVCKJHLw5CWALUf3s7P40gifpvXFdZg%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAADA7ZnNx1GzJ%2BjJIlMsGkL9CdkKsEFcy3Ff%2FqoheeIUtwAAAAAOgAAAAAIAACAAAADNS43hnz2BoAfNR4HAzMJzBXVQLdjUaXTg9antOFRKqzAAAAARdQS0AAocx4hz%2FiCHZHX8dXWRfi%2F6lkLL4PuKdi6QagetEaRNWxyzhGmA66e2E3pAAAAAdjusKfx0jBo5iFaTyGWy%2FIRAAkcM%2FT3kjeaKkhID6XRrXZVtxnwli3bBVCKJHLw5CWALUf3s7P40gifpvXFdZg%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="8c71759f-4db7-4012-a361-5704fbb3a4ec" Version="1.1" Url="http://localhost:44300/signalr/start" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="Q%2FvjBora6HATIDZft6eKmdXBalk0ZnHlCI3F8Aq0kDnjHpWa1xvBM%2F0Fqkw8OtburiRcJcHA31p52%2FWHytzR9uE4OWKQP5o7JsZomg%2FlPoRl6tr%2ByNkm13S6c3zZr2zP9Tn4q82%2Fql0O5SOtNYl%2FjKEcFhSFtX6eKyXqCQ1eBPI%3D" RecordedValue="Q%2FvjBora6HATIDZft6eKmdXBalk0ZnHlCI3F8Aq0kDnjHpWa1xvBM%2F0Fqkw8OtburiRcJcHA31p52%2FWHytzR9uE4OWKQP5o7JsZomg%2FlPoRl6tr%2ByNkm13S6c3zZr2zP9Tn4q82%2Fql0O5SOtNYl%2FjKEcFhSFtX6eKyXqCQ1eBPI%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072279160" RecordedValue="1419072279160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="838982d6-cb07-4ea7-acb5-b28ab1ad016c" Version="1.1" Url="http://localhost:44300/__browserLink/requestData/f88b0b7def1c40a994c31905053bda5f" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="4e487822-ff07-4af8-b059-cbec97ef4422" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/abort" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAADA7ZnNx1GzJ%2BjJIlMsGkL9CdkKsEFcy3Ff%2FqoheeIUtwAAAAAOgAAAAAIAACAAAADNS43hnz2BoAfNR4HAzMJzBXVQLdjUaXTg9antOFRKqzAAAAARdQS0AAocx4hz%2FiCHZHX8dXWRfi%2F6lkLL4PuKdi6QagetEaRNWxyzhGmA66e2E3pAAAAAdjusKfx0jBo5iFaTyGWy%2FIRAAkcM%2FT3kjeaKkhID6XRrXZVtxnwli3bBVCKJHLw5CWALUf3s7P40gifpvXFdZg%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAADA7ZnNx1GzJ%2BjJIlMsGkL9CdkKsEFcy3Ff%2FqoheeIUtwAAAAAOgAAAAAIAACAAAADNS43hnz2BoAfNR4HAzMJzBXVQLdjUaXTg9antOFRKqzAAAAARdQS0AAocx4hz%2FiCHZHX8dXWRfi%2F6lkLL4PuKdi6QagetEaRNWxyzhGmA66e2E3pAAAAAdjusKfx0jBo5iFaTyGWy%2FIRAAkcM%2FT3kjeaKkhID6XRrXZVtxnwli3bBVCKJHLw5CWALUf3s7P40gifpvXFdZg%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="POST" Guid="e69825d3-ad6f-4154-bb03-67f9849e03cd" Version="1.1" Url="http://localhost:44300/signalr/abort" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="Q%2FvjBora6HATIDZft6eKmdXBalk0ZnHlCI3F8Aq0kDnjHpWa1xvBM%2F0Fqkw8OtburiRcJcHA31p52%2FWHytzR9uE4OWKQP5o7JsZomg%2FlPoRl6tr%2ByNkm13S6c3zZr2zP9Tn4q82%2Fql0O5SOtNYl%2FjKEcFhSFtX6eKyXqCQ1eBPI%3D" RecordedValue="Q%2FvjBora6HATIDZft6eKmdXBalk0ZnHlCI3F8Aq0kDnjHpWa1xvBM%2F0Fqkw8OtburiRcJcHA31p52%2FWHytzR9uE4OWKQP5o7JsZomg%2FlPoRl6tr%2ByNkm13S6c3zZr2zP9Tn4q82%2Fql0O5SOtNYl%2FjKEcFhSFtX6eKyXqCQ1eBPI%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <StringHttpBody ContentType="application/json; charset=UTF-8" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="e627c5f4-8c08-4e9c-887e-e08f2006e017" Version="1.1" Url="http://localhost:44300/signalr/negotiate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/UserProfile" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072283731" RecordedValue="1419072283731" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="ad532eb3-1ece-4875-a767-b3784ae8b3e3" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/negotiate" ThinkTime="6" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/x-www-form-urlencoded; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/UserProfile" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FUserProfile" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FUserProfile" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.3" RecordedValue="1.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072284385" RecordedValue="1419072284385" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="GET" Guid="f83c1ecd-34a8-48e9-9e3f-0ad5864ee8bf" Version="1.1" Url="http://localhost:44300/Music" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="9a510b39-b4e0-478d-afea-5bcc9e372eeb" Version="1.1" Url="http://localhost:44300/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:44300/Music" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="b0f830ca-e359-4e6b-bf6f-0e1eb6fcc51d" Version="1.1" Url="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost:44300/Music" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="bdce73ec-6477-41e9-824b-ae195edbd1ea" Version="1.1" Url="http://localhost:44300/api/playlists" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/Music" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="9858fee8-f44d-4bb7-8307-7303124d3d6b" Version="1.1" Url="http://localhost:44300/api/usertracks" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://localhost:44300/Music" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam1230.provider}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:44300/UserProfile" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1230.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1498.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="4d03a059-22a7-4eb6-8167-7ad235066cd0" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAAA2IBKTIfMHuBGqeYBqsMWbpkxeu8bXVx9gldpcNrG34gAAAAAOgAAAAAIAACAAAABAxrrlKBwtZvowR1yGoM3pf0fHVw20NGhUgD94%2B3NIsTAAAACy3juDJ6C0pnDjRt8pe8ebsVHgmSmBwjycrLQOW%2FVFdApQ0HHa0x%2BxguzN4uFCNNZAAAAARiQyeIZTL1UkKp%2FCSiyAV%2Fv9Mr9BUjQpZmrXj0U8UWfQh0kIyDLNJZvT0p1DquaHcbQBBa78Ndcy4wXRCw%2FzJA%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAAA2IBKTIfMHuBGqeYBqsMWbpkxeu8bXVx9gldpcNrG34gAAAAAOgAAAAAIAACAAAABAxrrlKBwtZvowR1yGoM3pf0fHVw20NGhUgD94%2B3NIsTAAAACy3juDJ6C0pnDjRt8pe8ebsVHgmSmBwjycrLQOW%2FVFdApQ0HHa0x%2BxguzN4uFCNNZAAAAARiQyeIZTL1UkKp%2FCSiyAV%2Fv9Mr9BUjQpZmrXj0U8UWfQh0kIyDLNJZvT0p1DquaHcbQBBa78Ndcy4wXRCw%2FzJA%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FUserProfile" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FUserProfile" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="5faf2591-4171-42c1-890d-e595856c0f5e" Version="1.1" Url="http://localhost:44300/signalr/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="xNvqU4f2ZPKScXhOQcd8w2BQ0fPPP63K5SNKeO0IE7k2%2BwmDrx4qdB5AkVw5lw38QxlfU8w2I%2F3c6qWQVEuq4ZRlFft7e1dW7NXQ2bebn5PM2LCPz6PmX%2BfiWVVtZ4yZjx8xVNdofHsfMmjAxfgQgrha7stz09i5AgMfMKMTShk%3D" RecordedValue="xNvqU4f2ZPKScXhOQcd8w2BQ0fPPP63K5SNKeO0IE7k2%2BwmDrx4qdB5AkVw5lw38QxlfU8w2I%2F3c6qWQVEuq4ZRlFft7e1dW7NXQ2bebn5PM2LCPz6PmX%2BfiWVVtZ4yZjx8xVNdofHsfMmjAxfgQgrha7stz09i5AgMfMKMTShk%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="5" RecordedValue="5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="120d66d5-41b6-4230-b052-dd7003451ec6" Version="1.1" Url="http://localhost:44300/__browserLink/requestData/ad1de384760246a98c65c8fdf48651bd" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/UserProfile" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="207d8ffd-8735-453e-976b-b876d0378936" Version="1.1" Url="http://localhost:44300/signalr/start" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/UserProfile" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="xNvqU4f2ZPKScXhOQcd8w2BQ0fPPP63K5SNKeO0IE7k2%2BwmDrx4qdB5AkVw5lw38QxlfU8w2I%2F3c6qWQVEuq4ZRlFft7e1dW7NXQ2bebn5PM2LCPz6PmX%2BfiWVVtZ4yZjx8xVNdofHsfMmjAxfgQgrha7stz09i5AgMfMKMTShk%3D" RecordedValue="xNvqU4f2ZPKScXhOQcd8w2BQ0fPPP63K5SNKeO0IE7k2%2BwmDrx4qdB5AkVw5lw38QxlfU8w2I%2F3c6qWQVEuq4ZRlFft7e1dW7NXQ2bebn5PM2LCPz6PmX%2BfiWVVtZ4yZjx8xVNdofHsfMmjAxfgQgrha7stz09i5AgMfMKMTShk%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072283732" RecordedValue="1419072283732" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="08a78f13-97bd-4847-8ee5-4cf7f652dd87" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/abort" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/UserProfile" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAAA2IBKTIfMHuBGqeYBqsMWbpkxeu8bXVx9gldpcNrG34gAAAAAOgAAAAAIAACAAAABAxrrlKBwtZvowR1yGoM3pf0fHVw20NGhUgD94%2B3NIsTAAAACy3juDJ6C0pnDjRt8pe8ebsVHgmSmBwjycrLQOW%2FVFdApQ0HHa0x%2BxguzN4uFCNNZAAAAARiQyeIZTL1UkKp%2FCSiyAV%2Fv9Mr9BUjQpZmrXj0U8UWfQh0kIyDLNJZvT0p1DquaHcbQBBa78Ndcy4wXRCw%2FzJA%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAAA2IBKTIfMHuBGqeYBqsMWbpkxeu8bXVx9gldpcNrG34gAAAAAOgAAAAAIAACAAAABAxrrlKBwtZvowR1yGoM3pf0fHVw20NGhUgD94%2B3NIsTAAAACy3juDJ6C0pnDjRt8pe8ebsVHgmSmBwjycrLQOW%2FVFdApQ0HHa0x%2BxguzN4uFCNNZAAAAARiQyeIZTL1UkKp%2FCSiyAV%2Fv9Mr9BUjQpZmrXj0U8UWfQh0kIyDLNJZvT0p1DquaHcbQBBa78Ndcy4wXRCw%2FzJA%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FUserProfile" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FUserProfile" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="POST" Guid="7733603a-40b4-42f2-8df7-fbfe68f59adb" Version="1.1" Url="http://localhost:44300/signalr/abort" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/UserProfile" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="xNvqU4f2ZPKScXhOQcd8w2BQ0fPPP63K5SNKeO0IE7k2%2BwmDrx4qdB5AkVw5lw38QxlfU8w2I%2F3c6qWQVEuq4ZRlFft7e1dW7NXQ2bebn5PM2LCPz6PmX%2BfiWVVtZ4yZjx8xVNdofHsfMmjAxfgQgrha7stz09i5AgMfMKMTShk%3D" RecordedValue="xNvqU4f2ZPKScXhOQcd8w2BQ0fPPP63K5SNKeO0IE7k2%2BwmDrx4qdB5AkVw5lw38QxlfU8w2I%2F3c6qWQVEuq4ZRlFft7e1dW7NXQ2bebn5PM2LCPz6PmX%2BfiWVVtZ4yZjx8xVNdofHsfMmjAxfgQgrha7stz09i5AgMfMKMTShk%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <StringHttpBody ContentType="application/json; charset=UTF-8" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="338b4b5d-89c8-4c8b-8b50-fd4a2404c334" Version="1.1" Url="http://localhost:44300/signalr/negotiate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072291476" RecordedValue="1419072291476" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="5643cea6-dc50-4aaa-9aea-5fd47a79196e" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/negotiate" ThinkTime="17" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/x-www-form-urlencoded; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FMusic" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FMusic" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.3" RecordedValue="1.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072294632" RecordedValue="1419072294632" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="GET" Guid="8c8732cc-6072-42b8-b6af-fc48eb6da223" Version="1.1" Url="http://localhost:44300/Account/LogOff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost:44300/PublicPlaylists" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="438d22aa-42de-4d25-bead-de2fd3652466" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAAAo9YcFp%2F6yrs4AqYJ5V6lVKd8r3QdV6uJJxP19I6OlFQAAAAAOgAAAAAIAACAAAABr2kKEZwld%2BRsajPAy%2BX3OYLLpEYSIgPRut7NdtSvzBjAAAAAwlbpSRN46BoARSwv1WPQSOM7Z8nuh9wg9VNknpmKIwqGTISrOt%2F5Zbgi9u9u5JPVAAAAAc9f1RFpNrM77xWPhboPnNhF9GQYeqJGR%2FrPjDMLe%2B6GZGve8crVQ0DLQ3qZleGr0q%2FedfrZsRY%2Fa5MUAS1ztNg%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAAAo9YcFp%2F6yrs4AqYJ5V6lVKd8r3QdV6uJJxP19I6OlFQAAAAAOgAAAAAIAACAAAABr2kKEZwld%2BRsajPAy%2BX3OYLLpEYSIgPRut7NdtSvzBjAAAAAwlbpSRN46BoARSwv1WPQSOM7Z8nuh9wg9VNknpmKIwqGTISrOt%2F5Zbgi9u9u5JPVAAAAAc9f1RFpNrM77xWPhboPnNhF9GQYeqJGR%2FrPjDMLe%2B6GZGve8crVQ0DLQ3qZleGr0q%2FedfrZsRY%2Fa5MUAS1ztNg%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FMusic" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FMusic" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="7" RecordedValue="7" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e15b1734-0af4-4772-be70-642685ddeb3b" Version="1.1" Url="http://localhost:44300/signalr/connect" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="5py5Z0j2Hzlg05PCpYkYe%2Bej73dkKejrr7Ij471NnH1%2FsKP0%2BG8jcQ67VzYQVH4fRCBVoMMxm1XuTfXau4cG5INQAhiSHAmJnwyq26H43gKGXQtAYAkcv48jCRDujrhbRJADfqa9D7uWsZPtSwyp%2BdrdFRhGhAFTFPSP91Ztdd4%3D" RecordedValue="5py5Z0j2Hzlg05PCpYkYe%2Bej73dkKejrr7Ij471NnH1%2FsKP0%2BG8jcQ67VzYQVH4fRCBVoMMxm1XuTfXau4cG5INQAhiSHAmJnwyq26H43gKGXQtAYAkcv48jCRDujrhbRJADfqa9D7uWsZPtSwyp%2BdrdFRhGhAFTFPSP91Ztdd4%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tid" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e60d54fd-a0b1-4d39-b112-5e199a74304c" Version="1.1" Url="http://localhost:44300/signalr/start" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="5py5Z0j2Hzlg05PCpYkYe%2Bej73dkKejrr7Ij471NnH1%2FsKP0%2BG8jcQ67VzYQVH4fRCBVoMMxm1XuTfXau4cG5INQAhiSHAmJnwyq26H43gKGXQtAYAkcv48jCRDujrhbRJADfqa9D7uWsZPtSwyp%2BdrdFRhGhAFTFPSP91Ztdd4%3D" RecordedValue="5py5Z0j2Hzlg05PCpYkYe%2Bej73dkKejrr7Ij471NnH1%2FsKP0%2BG8jcQ67VzYQVH4fRCBVoMMxm1XuTfXau4cG5INQAhiSHAmJnwyq26H43gKGXQtAYAkcv48jCRDujrhbRJADfqa9D7uWsZPtSwyp%2BdrdFRhGhAFTFPSP91Ztdd4%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072291477" RecordedValue="1419072291477" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="165521ec-de77-4ab5-9bc9-1b3e7bf16098" Version="1.1" Url="http://localhost:44300/__browserLink/requestData/ab92f141d3df479d8e5cb568d4211f0f" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="1ca07136-a5dd-42b8-aae8-86a36085a00e" Version="1.1" Url="http://localhost:44300/api/playlists/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="53cbfc30-9b24-4a61-8a40-c060952d0477" Version="1.1" Url="http://localhost:44300/api/playlists/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="7048777b-3a57-4d60-b5ac-f58ec23a129f" Version="1.1" Url="http://localhost:44300/api/playlists/image/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="48db7d3d-a5e2-4f68-93b3-8dddf89e0f43" Version="1.1" Url="http://localhost:44300/api/playlists/image/2" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="6f8eae2b-b03b-4287-8159-8aa8a3d4216f" Version="1.1" Url="http://localhost:44300/api/playlists/image/3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f71fdec2-ba10-4a33-a2be-2a397ad45787" Version="1.1" Url="http://localhost:44300/api/playlists/image/4" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="3593a611-980e-40df-9e4b-9c46bbe498a0" Version="1.1" Url="http://localhost:44300/api/playlists/image/5" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="31eef7fa-bb22-4cf4-bea7-eb7233635609" Version="1.1" Url="http://localhost:44300/api/playlists/favorite/notOwned" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="cd1db9f7-ddf4-4dac-aed1-2e5ac37c69c3" Version="1.1" Url="http://localhost:44300/api/user/friends/Vkontakte" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="offset" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="count" Value="10" RecordedValue="10" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="2dbfaeca-f8c6-4d2a-9296-27b10eb63df6" Version="1.1" Url="http://localhost:44300/api/playlists" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="cdab68ea-ef23-4d35-9ded-17b5a3ee8214" Version="1.1" Url="http://localhost:44300/api/usertracks" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam1498.provider}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="b6c5488f-6b73-46aa-b0c1-135e0cd6c909" Version="1.1" Url="http://localhost:44300/api/playlists/image/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="b7f09222-1c94-4bc0-b6a6-eabfe587f329" Version="1.1" Url="http://localhost:44300/api/playlists/image/2" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="0b7b8163-9055-495d-9db9-e883ae7abb98" Version="1.1" Url="http://localhost:44300/api/playlists/image/3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="78b777da-608d-4fd0-8650-f34eb4946409" Version="1.1" Url="http://localhost:44300/api/playlists/image/4" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="70174c6d-3878-4097-becd-2857f0990ea7" Version="1.1" Url="http://localhost:44300/api/playlists/image/5" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="d8d8c835-a625-4566-bad9-fd477f0cf2d2" Version="1.1" Url="http://localhost:44300/api/playlists/favorite/notOwned" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f5bc7625-2570-4cbf-8e05-f2f82571215a" Version="1.1" Url="http://localhost:44300/api/playlists/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="2f395556-e71c-4031-90cf-30f9788e6e26" Version="1.1" Url="http://localhost:44300/api/playlists/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="16d3da56-26b2-4939-9714-f1726d532107" Version="1.1" Url="http://localhost:44300/api/notifications/followings/1" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="5f342d19-ad5e-401e-a6b3-0d9021043086" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/abort" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAAAo9YcFp%2F6yrs4AqYJ5V6lVKd8r3QdV6uJJxP19I6OlFQAAAAAOgAAAAAIAACAAAABr2kKEZwld%2BRsajPAy%2BX3OYLLpEYSIgPRut7NdtSvzBjAAAAAwlbpSRN46BoARSwv1WPQSOM7Z8nuh9wg9VNknpmKIwqGTISrOt%2F5Zbgi9u9u5JPVAAAAAc9f1RFpNrM77xWPhboPnNhF9GQYeqJGR%2FrPjDMLe%2B6GZGve8crVQ0DLQ3qZleGr0q%2FedfrZsRY%2Fa5MUAS1ztNg%3D%3D" RecordedValue="AQAAANCMnd8BFdERjHoAwE%2FCl%2BsBAAAAhilotui73EadsCSruCAaEAAAAAACAAAAAAAQZgAAAAEAACAAAAAo9YcFp%2F6yrs4AqYJ5V6lVKd8r3QdV6uJJxP19I6OlFQAAAAAOgAAAAAIAACAAAABr2kKEZwld%2BRsajPAy%2BX3OYLLpEYSIgPRut7NdtSvzBjAAAAAwlbpSRN46BoARSwv1WPQSOM7Z8nuh9wg9VNknpmKIwqGTISrOt%2F5Zbgi9u9u5JPVAAAAAc9f1RFpNrM77xWPhboPnNhF9GQYeqJGR%2FrPjDMLe%2B6GZGve8crVQ0DLQ3qZleGr0q%2FedfrZsRY%2Fa5MUAS1ztNg%3D%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FMusic" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FMusic" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="POST" Guid="0b3bcc08-30f3-4eb1-a249-31409250423b" Version="1.1" Url="http://localhost:44300/signalr/abort" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/Music" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="5py5Z0j2Hzlg05PCpYkYe%2Bej73dkKejrr7Ij471NnH1%2FsKP0%2BG8jcQ67VzYQVH4fRCBVoMMxm1XuTfXau4cG5INQAhiSHAmJnwyq26H43gKGXQtAYAkcv48jCRDujrhbRJADfqa9D7uWsZPtSwyp%2BdrdFRhGhAFTFPSP91Ztdd4%3D" RecordedValue="5py5Z0j2Hzlg05PCpYkYe%2Bej73dkKejrr7Ij471NnH1%2FsKP0%2BG8jcQ67VzYQVH4fRCBVoMMxm1XuTfXau4cG5INQAhiSHAmJnwyq26H43gKGXQtAYAkcv48jCRDujrhbRJADfqa9D7uWsZPtSwyp%2BdrdFRhGhAFTFPSP91Ztdd4%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <StringHttpBody ContentType="application/json; charset=UTF-8" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="fda20958-f6ac-4274-849c-d6281fe580c6" Version="1.1" Url="http://localhost:44300/api/playlists/image/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f1d5a1b3-1ba2-4143-8756-32804bb0e3aa" Version="1.1" Url="http://localhost:44300/api/playlists/image/6" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="08a47b7b-f4e1-49bd-b695-466f12aaa7f7" Version="1.1" Url="http://localhost:44300/api/playlists/image/2" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="0ed1d5b4-3b04-4a1b-ad23-53d22ae8737c" Version="1.1" Url="http://localhost:44300/api/playlists/image/3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="7fd55a64-57e6-438d-b98f-b3b1c099d475" Version="1.1" Url="http://localhost:44300/api/playlists/image/4" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="153ed98c-de84-4b68-8d97-909264d1cd53" Version="1.1" Url="http://localhost:44300/api/playlists/image/5" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="cdb42b56-5030-4d65-882b-d9da14dd4aa9" Version="1.1" Url="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="51e8f09f-5719-40e8-838a-a8ddd7249a8e" Version="1.1" Url="http://localhost:44300/api/playlists/genres" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="id" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="80b1de4b-9ecc-4758-bcf6-52a93acbc286" Version="1.1" Url="http://localhost:44300/signalr/negotiate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072314658" RecordedValue="1419072314658" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="32b1f068-b839-4670-b5ea-af0c9ac7b9dd" Version="1.1" Url="http://localhost:12321/47f3533c8f354b8b9fb4ff749f2e4783/arterySignalR/negotiate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/x-www-form-urlencoded; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="requestUrl" Value="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" RecordedValue="http%3A%2F%2Flocalhost%3A44300%2FPublicPlaylists" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="browserName" Value="Internet+Explorer" RecordedValue="Internet+Explorer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="userAgent" Value="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" RecordedValue="Mozilla%2F5.0+(Windows+NT+6.3%3B+WOW64%3B+Trident%2F7.0%3B+.NET4.0E%3B+.NET4.0C%3B+.NET+CLR+3.5.30729%3B+.NET+CLR+2.0.50727%3B+.NET+CLR+3.0.30729%3B+InfoPath.3%3B+rv%3A11.0)+like+Gecko" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.3" RecordedValue="1.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072315205" RecordedValue="1419072315205" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody />
+    </Request>
+    <Request Method="GET" Guid="cfe82939-2845-46f8-9ddb-5c10270572f4" Version="1.1" Url="http://localhost:44300/__browserLink/requestData/66b57a0e71a54e33a08cceea163a62c1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="06c268dd-517b-4805-b2f3-e829008073fa" Version="1.1" Url="http://localhost:44300/signalr/start" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://localhost:44300/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="W69WX2ogie9t9A2Z6ldLlukNMFKaR7%2FaXWly80%2FIkvKbjZODRloOTfHyAmJ6J%2B0aHmUVLwO8D%2Fdkcf1Lr5rYtLuNyJPc7m%2BgFEoJXUErV2tthbAwctxVvxAsjcVTtOEY" RecordedValue="W69WX2ogie9t9A2Z6ldLlukNMFKaR7%2FaXWly80%2FIkvKbjZODRloOTfHyAmJ6J%2B0aHmUVLwO8D%2Fdkcf1Lr5rYtLuNyJPc7m%2BgFEoJXUErV2tthbAwctxVvxAsjcVTtOEY" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1419072314659" RecordedValue="1419072314659" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

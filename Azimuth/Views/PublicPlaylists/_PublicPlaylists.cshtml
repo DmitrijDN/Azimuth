@@ -1,0 +1,73 @@
+﻿@model List<Azimuth.Shared.Dto.PlaylistData>
+
+@Html.DisplayForModel()
+    
+<script type="text/javascript" src="../../Scripts/jquery-1.10.2.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        $('#tracksArea').hide(); 
+    });
+
+    $('.playlist-plated:not(a)').click(function () {
+        $('#playlistsArea').hide();
+        $('#playlist-spinner').show();
+        var $currentPlaylist = $(this);
+        var playlistId = $currentPlaylist.find('.playlistId').val();
+        var likesCount = $currentPlaylist.find('.likesCount').val();
+        var favouriteCount = $currentPlaylist.find('.favouritesCount').val();
+        var playlistName = $currentPlaylist.find('.playlistName').text();
+        var isLiked = $currentPlaylist.find('.isLiked').val();
+        var isFavourited = $currentPlaylist.find('.isFavourited').val();
+        var curPlaylist = {
+            PlaylistId: playlistId,
+            PlaylistName: playlistName,
+            IsLiked: isLiked,
+            IsFavourited: isFavourited,
+            LikesCount: likesCount,
+            FavouritesCount: favouriteCount
+        };
+        $.ajax({
+            url: '@Url.Action("_PlaylistTracks", "PublicPlaylists")',
+            type: 'GET',
+            data: { curPlaylist: JSON.stringify(curPlaylist) },
+            success: function(data) {
+                $(data).appendTo($('#tracksArea'));
+                $.ajax({
+                    url: '/api/playlists/raiselistened?id=' + playlistId,
+                    type: 'POST'
+                });
+            }
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    var self = this;
+
+    this._setNewImage = function ($playlist, id) {
+        $.ajax({
+            url: '/api/playlists/image/' + id,
+            success: function (image) {
+                var $logo = $playlist;
+                $logo.fadeOut(300, function () {
+                    if (image != "") {
+                        $logo.css({
+                            "background-image": 'url(' + image + ')'
+                        });
+                    } else {
+                        $logo.css({
+                            "background-image": 'url(http://cdns2.freepik.com/free-photo/music-album_318-1832.jpg)'
+                        });
+                    }
+                });
+                $logo.fadeIn(300);
+            }
+        });
+    };
+
+    $('.playlist-plated').each(function() {
+        self._setNewImage($(this), $(this).find('.playlistId').val());
+    });
+</script>

@@ -1,0 +1,248 @@
+﻿.tabbable {
+    height: calc(100% - 82px);
+}
+
+.tab-content {
+    height: calc(100% - 42px);
+}
+
+.col-md-0 {
+    width: 0%;
+    float: left;
+}
+
+#extra-container {
+    transition: width 0.256s linear;
+}
+
+#extra-container-content {
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    height: 100%
+}
+
+#tracks-container {
+    height: 100%;
+    transition: width 0.256s linear;
+}
+
+#playlists {
+    height: 97%;
+    margin-bottom: 0;
+}
+
+#scrollable-playlist {
+    height: calc(100% - 60px);
+    margin-top: 25px;
+    width: 100%;
+}
+
+#Vkontakte {
+    height: 100%;
+}
+
+#feature-widget {
+    width: 50px;
+    height: 200px;
+    position: fixed;
+    top: 30%;
+    padding: 5px;
+    z-index: 100;
+}
+
+#buttons-section {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 75px;
+}
+
+#buttons-section div {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#get-friends-info-btn {
+    margin-bottom: 10px;
+}
+
+#searchPlaylistName {
+    margin: 0 auto;
+}
+
+#vk-track-list {
+    height: 83%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+}
+
+.stuck {
+    position: fixed;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.spacer {
+    margin-top: 7px;
+    margin-left: 5px;
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+    height: 10px;
+}
+
+.spacer:after {
+    content: "";
+    display: block;
+    width: 100%;
+    margin: -25px auto 0;
+    height: 25px;
+    -ms-border-radius: 125px/12px;
+    border-radius: 125px/12px;
+    -webkit-box-shadow: 0 0 8px black;
+    -ms-box-shadow: 0 0 8px black;
+    box-shadow: 0 0 8px black;
+}
+
+#buttons {
+    position: absolute; 
+    background-color: #428bca; 
+    top: 20%; 
+    height: 196px; 
+    width: 100%; 
+    border: 3px solid white; 
+    -ms-border-radius: 10px; 
+    border-radius: 10px
+}
+
+#buttons img {
+    width: 100%; 
+    -ms-border-radius: 10px; 
+    border-radius: 10px
+}
+
+#volumeImg {
+    content: "";
+    display: inline-block;
+    position: absolute; 
+    width: 40px;
+    height: 40px;
+    top: 60%; 
+    left: 50%;
+    margin-left: -16px;
+    background: url("../Images/media_volume.png") no-repeat 0 0;
+}
+
+.volumeBar {
+    position: relative;
+    height: 100px;
+    background-color: #ccc;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.volume {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #428bca;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.progressBar {
+    position: relative;
+    display: block;
+    float: right;
+    width: calc(100% - 100px);
+    margin-top: 2px;
+    margin-right: 50px;
+    height: 7px;
+    background-color: #ccc;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    margin-bottom: 0;
+    background-color: #428bca;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    z-index: 100;
+}
+
+.cache {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    margin-bottom: 0;
+    background-color: #7da6c9;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    z-index: 10;
+}
+
+#trackInfo > div{
+    display: block;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.infoDescription {
+    width: 75%;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+
+.descriptionPhoto {
+    width: 20%;
+    display: inline;
+    float: left;
+}
+
+.descriptionPhoto img {
+    width: 100%;
+}
+
+.list-notification-close {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #000000;
+    /*-ms-opacity: 0.2;
+    opacity: 0.2;
+    -webkit-filter: alpha(opacity=20);
+    -moz-filter: alpha(opacity=20);
+    -o-filter: alpha(opacity=20);*/
+    /*filter: alpha(opacity=20);*/
+    text-decoration: none;
+    margin-top: 5%;
+    margin-right: -2%;
+}
+
+a.list-notification-close {
+    text-decoration: none;
+}
+.list-notification-close:hover {
+    color: black;
+}

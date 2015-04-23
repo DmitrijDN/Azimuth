@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Azimuth.DataAccess" namespace="Azimuth.DataAccess.Entities">
+  <class name="User" table="Users">
+    <id name="Id">
+      <generator class="native"/>
+    </id>
+    <component name="Name" class="Name">
+      <property name="FirstName"/>
+      <property name="LastName" />
+    </component>
+    <property name="ScreenName" />
+    <property name="Gender" />
+    <property name="Birthday" />
+    <property name="Photo" />
+    <property name="Timezone" />
+    <component name="Location" class="Location">
+      <property name="Country" />
+      <property name="City" />
+    </component>
+    <set name="SocialNetworks" cascade="all-delete-orphan" inverse="true">
+      <key column="UserId"/>
+      <one-to-many class="UserSocialNetwork"/>
+    </set>
+    <set name="Followers" table="UserToUser" cascade="save-update">
+      <key column="FollowingId" />
+      <many-to-many column="FollowerId" class="User" />
+    </set>
+    <set name="Following" table="UserToUser" cascade="save-update">
+      <key column="FollowerId" />
+      <many-to-many column="FollowingId" class="User" />
+    </set>
+    <set name="PlaylistFollowing" table="Likes" cascade="all-delete-orphan">
+      <key column="UserId" />
+      <one-to-many class="PlaylistLike"/>
+    </set>
+    <property name="Email" unique="true"/>
+  </class>
+</hibernate-mapping>

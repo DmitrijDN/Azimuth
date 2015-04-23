@@ -1,0 +1,352 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"winner",
+				"winnerScored"
+			],
+			[
+				"prev",
+				"previousWinner"
+			],
+			[
+				"looer",
+				"looserScored"
+			],
+			[
+				"looser",
+				"looserConceded"
+			],
+			[
+				"loos",
+				"looserScored"
+			],
+			[
+				"goa",
+				"goalsDifference"
+			],
+			[
+				"goal",
+				"goalsConceded"
+			],
+			[
+				"current",
+				"currentLooser"
+			],
+			[
+				"goals",
+				"goalsScored"
+			],
+			[
+				"curernt",
+				"currentLooser"
+			],
+			[
+				"go",
+				"goalsDifference"
+			],
+			[
+				"previo",
+				"previousResult"
+			],
+			[
+				"sc",
+				"scored1"
+			],
+			[
+				"back",
+				"backendUser1"
+			],
+			[
+				"scor",
+				"scored2"
+			],
+			[
+				"ba",
+				"backendUser1"
+			],
+			[
+				"playOff",
+				"playOffMatches"
+			],
+			[
+				"Match",
+				"MatchRepository"
+			],
+			[
+				"play",
+				"playOffMatches"
+			],
+			[
+				"champ",
+				"champInfo"
+			],
+			[
+				"call",
+				"callback"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/app-tests"
+	],
+	"file_history":
+	[
+		"/C/Users/Dmitrij/.ssh/known_hosts",
+		"/C/Users/Dmitrij/Desktop/linkedIn oauth2 query",
+		"/E/app-championship/backend/repositories/champGroupRepository.js",
+		"/E/app-championship/backend/services/helpFunctions.js",
+		"/E/app-championship/backend/services/groupService.js",
+		"/E/app-championship/frontend/views/main/Group/group-table-template.jade",
+		"/E/app-championship/backend/routes/api/matchRoutes.js",
+		"/E/app-championship/frontend/javascripts/main/Match/MatchView.js",
+		"/E/app-championship/frontend/javascripts/main/Group/GroupModel.js",
+		"/E/app-championship/backend/schemas/groupUserScheme.js",
+		"/E/app-championship/backend/schemas/champGroup.js",
+		"/E/app-championship/bower_components/backbone.babysitter/readme.md",
+		"/E/app-championship/backend/repositories/generalRepository.js",
+		"/E/app-championship/node_modules/backbone-validation/tests/helper.js",
+		"/E/app-championship/bower_components/marionette/api/helpers.jsdoc",
+		"/E/app-championship/node_modules/body-parser/HISTORY.md",
+		"/E/app-championship/frontend/javascripts/main/ChampInfo/ChampInfoController.js",
+		"/E/app-championship/backend/schemas/champInfo.js",
+		"/E/app-championship/frontend/javascripts/main/ChampInfo/ChampInfoAddView.js",
+		"/E/app-championship/backend/repositories/champInfoRepository.js",
+		"/E/app-championship/backend/routes/api/champRoutes.js",
+		"/E/app-championship/frontend/styles/style.styl",
+		"/E/app-championship/frontend/javascripts/main/ChampInfo/ChampInfoDetailsPlayoffView.js",
+		"/E/app-championship/backend/services/matchService.js",
+		"/E/app-championship/backend/repositories/matchRepository.js",
+		"/E/app-championship/node_modules/grunt/node_modules/findup-sync/test/findup-sync_test.js",
+		"/E/app-championship/backend/server.js",
+		"/E/app-championship/backend/schemas/match.js",
+		"/E/app-championship/node_modules/mongoose/examples/express/connection-sharing/modelA.js",
+		"/E/app-championship/node_modules/.bin/grunt-open",
+		"/E/app-championship/bower_components/bootstrap/less/grid.less",
+		"/E/app-championship/node_modules/grunt/node_modules/grunt-legacy-util/test/fixtures/Gruntfile-print-text.js",
+		"/E/app-championship/node_modules/mongoose/examples/globalschemas/gs_example.js",
+		"/E/app-championship/Gruntfile.js",
+		"/E/app-championship/frontend/views/index.jade",
+		"/E/app-championship/frontend/views/main/Champ/champinfo-details-playoff-template-admin.jade",
+		"/E/app-championship/frontend/views/main/Champ/champinfo-details-playoff-template-common.jade",
+		"/E/app-championship/bower_components/backbone/index.js",
+		"/E/app-championship/bower_components/backbone/index.html",
+		"/E/app-championship/backend/middleware/injectDataMiddleware.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Helper.findElementIndex(data.users, searchParam, previousResult.winner)",
+			"Helper.findElementIndex(data.users, searchParam, previousResult.looser",
+			"COnsole.log",
+			"sort",
+			"setPoints",
+			"backPoints",
+			"setPoints",
+			"update-match-data",
+			"group-table",
+			"getPoByChampId",
+			"generatePlayOffFromGroups",
+			"generateFirstPlayoffStage",
+			"addList",
+			"playOffEmptyStageGeneration",
+			"save",
+			"update",
+			"this.model.save({}",
+			"add-champ-to-db",
+			"champinfo-details-playoff-template"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "app-tests.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"groupser",
+				"backend\\services\\groupService.js"
+			],
+			[
+				"helpfunc",
+				"backend\\services\\helpFunctions.js"
+			],
+			[
+				"helper",
+				"node_modules\\backbone-validation\\tests\\helper.js"
+			],
+			[
+				"groupmodel",
+				"frontend\\javascripts\\main\\Group\\GroupModel.js"
+			],
+			[
+				"sty",
+				"frontend\\styles\\style.styl"
+			],
+			[
+				"matchser",
+				"backend\\services\\matchService.js"
+			],
+			[
+				"matchrepos",
+				"backend\\repositories\\matchRepository.js"
+			],
+			[
+				"matchrep",
+				"backend\\repositories\\matchRepository.js"
+			],
+			[
+				"grouprepo",
+				"backend\\repositories\\champGroupRepository.js"
+			],
+			[
+				"genera",
+				"backend\\repositories\\generalRepository.js"
+			],
+			[
+				"index.jade",
+				"frontend\\views\\index.jade"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 307.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

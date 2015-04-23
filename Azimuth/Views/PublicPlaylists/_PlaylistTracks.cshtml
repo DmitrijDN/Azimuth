@@ -1,0 +1,187 @@
+﻿@using Azimuth.Shared.Dto
+@model Azimuth.Shared.Dto.PublicPlaylistTracksViewModel
+
+<div class="container" id="playlist-items-container">
+    <div id="playlistTracks">
+        <div id="playlist-name">
+            <div id="back-container">
+                <i class="fa fa-reply" id="backToPlaylistsBtn"></i>@Model.CurrentPlaylist.PlaylistName
+            </div>
+            <div class="pull-right" id="like-container">
+                @Html.Partial("_ChangeLikeStatus", @Model.CurrentPlaylist)
+            </div>
+        </div>
+        <div id="audio-player-container">
+            @Html.Partial("_AudioPlayer")
+        </div>
+        <div id="tracks-content">
+            <div class="draggable-list vkMusicList">
+                @Html.DisplayFor(x => x.Tracks)
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#playlist-spinner').hide();
+        $('#tracksArea').show();
+        $('#backToPlaylistsBtn').off('click').click(function() {
+            $('#tracksArea').empty();
+            if (document.audioManager.$currentTrack) 
+                document.audioManager.stop();   
+            $('#playlistsArea').show();
+        });
+
+        document.audioManager.refreshTracks();
+        document.audioManager.refreshPlaylistTracks();
+        document.audioManager.bindPlayBtnListeners();
+        document.audioManager.bindListeners();
+
+        $('.track-info > a').off('click').click(function() {
+            var $self = $(this);
+            var $trackInfoSpinner = $('#trackInfo-spinner');
+            var author = $self.children('.track-artist').html();
+            var trackName = $self.children('.track-title').html();
+            $trackInfoSpinner.show();
+            $.ajax({
+                url: '/api/usertracks/trackinfo?artist=' + author + '&trackName=' + trackName,
+                async: true,
+                success: function(trackInfo) {
+                    $trackInfoSpinner.hide();
+                    var $trackInfoTemplate = $('#trackInfoTemplate');
+                    var object = $trackInfoTemplate.tmpl(trackInfo);
+                    var $trackInfoContainer = $('#infoModal .modal-body');
+                    $trackInfoContainer.text('');
+                    object.appendTo($trackInfoContainer);
+                    if (trackInfo.Lyric != null) {
+                        for (var i = 0; i < trackInfo.Lyric.length; i++) {
+                            var $p = $('<p>');
+                            $p.text(trackInfo.Lyric[i]);
+                            $trackInfoContainer.find('.trackLyric').append($p);
+                        }
+                    }
+                    if (trackInfo.Summary != null) {
+                        $trackInfoContainer.find('.trackSummary').append(trackInfo.Summary);
+                    }
+                    self.topTracks = trackInfo.ArtistTopTrackList;
+                    $('#listenTopBtn').attr('disabled', false);
+                }
+            });
+        });
+
+        $('.download-btn').mousedown(function (e) {
+            var $self = $(this);
+            var trackInfo = {
+                trackData: [
+                    { ownerId: $self.siblings('.ownerId').text(), thirdPartId: $self.siblings('.thirdPartId').text() }
+                ]
+            };
+            $.ajax({
+                url: '/api/usertracks/trackurl?provider=Vkontakte',
+                type: 'GET',
+                dataType: 'json',
+                data: { trackData: JSON.stringify(trackInfo) },
+                success: function (track) {
+                    var link = document.createElement("a");
+                    link.download = "Download";
+                    link.href = track[0];
+                    link.click();
+                }
+            });
+
+            e.stopPropagation();
+        });
+
+        document.audioManager.createProgressBar();
+        document.audioManager.createVolumeSlider();
+        document.progressBar.bindListeners();
+
+        $('#tracks-content').mCustomScrollbar({
+            theme: 'dark-3',
+            scrollButtons: { enable: true },
+            updateOnContentResize: true,
+            scrollInertia: 0,
+            autoHideScrollbar: true,
+            advanced: { updateOnSelectorChange: "true" }
+        });
+    });
+</script>
+
+<script id="trackInfoTemplate" type="text/x-JQuery-tmpl">
+    <div id="trackInfo">
+        <div class="tableRow" id="artistData">
+            <div class="descriptionPhoto">
+                {{if ArtistImage != null}}
+                <img src=${ArtistImage}>
+                {{/if}}
+            </div>
+            <div class="infoDescription">
+                <div class="trackTitle">
+                    {{if Title != null}}
+                    Title: <a href=${TrackLastfmUrl}>${Title}</a>
+                    {{/if}}
+                </div>
+                <div class="Artist">
+                    Artist:
+                    {{if Artist != null}}
+                    <a href=${ArtistLastfmUrl}>${Artist}</a>
+                    {{/if}}
+                </div>
+                {{if ArtistFans != 0}}
+                <div>Fans count: ${ArtistFans}</div>
+                {{/if}}
+
+            </div>
+        </div>
+        <div class="tableRow" id="albumData">
+            {{if AlbumCover != null}}
+            <div class="descriptionPhoto"><img src=${AlbumCover}></div>
+            {{/if}}
+            <div class="infoDescription">
+                {{if AlbumTitle != null}}
+                <div>Album: <a href="${AlbumLastfmUrl}">${AlbumTitle}</a></div>
+                {{/if}}
+                {{if AlbumFans != 0}}
+                <div>Fans count: ${AlbumFans}</div>
+                {{/if}}
+                {{if AlbumRelease != null}}
+                <div>Year: ${AlbumRelease}</div>
+                {{/if}}
+            </div>
+        </div>
+        {{if Lyric!= null}}
+        <div class="tableRow panel panel-primary" id="lyricsData" style="display: block">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapseLyrics">
+                        Lyrics
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseLyrics" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div class="trackLyric"></div>
+                </div>
+            </div>
+        </div>
+        {{/if}}
+
+        {{if Summary != null}}
+        <div class="tableRow panel panel-primary" id="summaryData" style="display: block">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapseSummary">
+                        Summary
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseSummary" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <div class="trackSummary"></div>
+                </div>
+            </div>
+        </div>
+        {{/if}}
+    </div>
+</script>

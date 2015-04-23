@@ -1,0 +1,123 @@
+﻿#playlistsArea {
+    height: 100%;
+}
+#playlistsArea ul li a.selected {
+    text-decoration: none;
+    background-color: #eeeeee; 
+}
+#playlist-name {
+    font-size: 25px;
+    overflow: hidden;
+}
+#playlistTracks {
+    height: 100%;
+}
+#tracks-content {
+    height: 75%;
+    width: 90%;
+    margin: auto;
+}
+#playlistFollowActions .fa {
+    padding: 0px 5px 0px 0px;
+}
+#back-container{
+    width: 60%;
+    display: inline-block;   
+}
+#like-container {
+    width: 40%;
+    min-width: 130px;
+}
+#backToPlaylistsBtn {
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#playlists-playted {
+    height: 100%;
+}
+
+.playlist-plated {
+    width: 200px;
+    height: 200px;
+    max-height: 300px;
+    max-width: 300px;
+    display: block;
+    float: left;
+    background-image: url(http://cdns2.freepik.com/free-photo/music-album_318-1832.jpg);
+    -ms-background-size:  contain;
+    background-size:  contain;
+    background-repeat: no-repeat;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 4px 4px 5px 1px #888;
+}
+
+.playlist-plated-info {
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+}
+.playlist-plated-info div{
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.playlist-plated-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.playlist-plated-info .fa {
+    padding: 3px;
+}
+
+.playlistName {
+    font-size: 20px;
+    display: none;
+}
+
+.creator {
+    font-size: 16px;
+    display: none;
+}
+
+.creator:hover {
+    text-decoration: underline;
+}
+.genres {
+    display: none;
+}
+
+@keyframes fadein {
+    from { opacity: 0; display: none;}
+    to   { opacity: 1; display: block;}
+}
+
+.playlist-plated:hover .playlistName{
+    text-decoration: none;
+}
+
+.playlist-plated:hover .playlistName,
+.playlist-plated:hover .creator,
+.playlist-plated:hover .genres {
+    -webkit-animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s;
+    -ms-animation: fadein 0.5s;
+    -o-animation: fadein 0.5s;
+    animation: fadein 0.5s;
+    display: block;
+}
+
+.listeners-count span {
+    font-size: 20px;
+    color: lightgray;
+}
+.genres {
+    font-size: 12px;
+}

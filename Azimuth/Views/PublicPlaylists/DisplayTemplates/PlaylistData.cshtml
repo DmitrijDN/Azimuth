@@ -1,0 +1,70 @@
+﻿@using Azimuth.DataAccess.Entities
+@model Azimuth.Shared.Dto.PlaylistData
+@{
+    var temp = new List<PlaylistLike>();
+    if (Request.IsAuthenticated)
+    {
+        var playlistFollowData = ViewData["playlistFollowing"] as IEnumerable<PlaylistLike>;
+        temp = playlistFollowData.ToList();
+    }
+    var playlistName = "";
+    if (Model.Name.Length > 20)
+    {
+        playlistName = Model.Name.Substring(0, 20) + "...";
+    }
+    else
+    {
+        playlistName = Model.Name;
+    }
+    var genres = Model.Genres.Aggregate("", (current, genre) => current + (@genre + ", "));
+    var duration = Convert.ToDecimal(Model.Duration);
+    var hours = Math.Floor(duration / (60 * 60));
+    var minutes = Math.Floor(duration / 60) - (60 * hours);
+    var seconds = (duration % 60);
+    var formattedDuration = ((hours >= 0) ? ((hours > 10) ? hours.ToString() + ":" : "0" + hours.ToString()) + ":" : "0:") +
+                                ((minutes >= 10) ?  minutes.ToString() : "0" + minutes) + ":"
+                                + ((seconds >= 10) ? seconds.ToString() : "0" + seconds);   
+}
+
+<div class="playlist-plated" data-genres="@genres">
+    <div id="playlist-header-spinner" class="spinner loader"></div>
+    <div class="playlist-plated-info">
+        <div class="playlistName">@playlistName</div>
+        <div class="creator">
+            @Html.ActionLink(Model.Creator.Name, "Index", "UserProfile", new { id = Model.Creator.UserId }, null)
+        </div>
+
+        @if (Model.Genres.Any())
+        {
+            genres = genres.Remove(genres.Length - 2);
+            <div class="genres">@genres</div>
+        }
+        <div class="duration">
+            <i class="fa fa-play"></i>@formattedDuration
+        </div>
+        <div class="playlistFollowers">
+            <i class="fa fa-heart"></i>@Model.PlaylistLikes
+            <i class="fa fa-star"></i>@Model.PlaylistFavourited
+            <i class="fa fa-headphones"></i> @Model.PlaylistListened
+        </div>
+
+        <input type="hidden" class="playlistId" value="@Model.Id.ToString()" />
+        <input type="hidden" class="likesCount" value="@Model.PlaylistLikes.ToString()" />
+        <input type="hidden" class="favouritesCount" value="@Model.PlaylistFavourited.ToString()" />
+
+        @if (Request.IsAuthenticated)
+        {
+            var curPlaylistFollowData = temp.FirstOrDefault(s => s.Playlist.Id == Model.Id);
+            if (curPlaylistFollowData != null)
+            {
+                <input type="hidden" class="isLiked" value="@curPlaylistFollowData.IsLiked.ToString()" />
+                <input type="hidden" class="isFavourited" value="@curPlaylistFollowData.IsFavorite.ToString()" />
+            }
+            else
+            {
+                <input type="hidden" class="isLiked" value="False" />
+                <input type="hidden" class="isFavourited" value="False" />
+            }
+        }
+    </div>
+</div>

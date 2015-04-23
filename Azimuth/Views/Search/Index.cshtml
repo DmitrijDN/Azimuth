@@ -1,0 +1,225 @@
+﻿@{
+    ViewBag.Title = "Search";
+}
+<div>
+    <div style="padding: 10px 0; margin-left: 10%; width: 80%; height: 80%;">
+        <div>
+            @Html.Partial("_AudioPlayer")
+        </div>
+        <input class="form-control" id="search" value="@Request.QueryString["searchParam"]">
+        <div class="btn-group" style="margin-top: 10px;">
+            <button type="button" class="btn btn-primary searchBtn" data-search="track">Track</button>
+            <button type="button" class="btn btn-default searchBtn" data-search="genre">Genre</button>
+            <button type="button" class="btn btn-default searchBtn" data-search="artist">Artist</button>
+            <button type="button" class="btn btn-default searchBtn" data-search="user">User</button>
+        </div>
+        <button type="button" class="btn btn-default searchBtn" data-search="vkontakte" style="margin-top: 10px;"><i class="fa fa-vk"></i></button>
+        <div id="users">
+            <div id="users-spinner" class="spinner loader"></div>
+            <div class="no-result">Sorry, no results found.</div>
+        </div>
+        
+        <div id="searched-list">
+            <div id="vkMusic-header" class="table-header">
+                <div id="vkMusic-header-title" class="table-title"></div>
+            </div>
+            <div id="vkMusic-header-spinner" class="spinner loader"></div>
+            <div id="progressSlider" style="display: none"></div>
+            <div id="vkMusicTable" class="vkMusicTable draggable" style="width: 80%;">
+                <div class="draggable-list vkMusicList"></div>
+                <div class="no-result">Sorry, no results found.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Track info</h4>
+                </div>
+                <div id="info-header-spinner" class="spinner loader"></div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" id="closeModalBtn" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="listenTopBtn" data-dismiss="modal" disabled>Listen top tracks</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="createPlaylistModal" tabindex="-1" role="dialog" aria-labelledby="createPlaylistModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Enter Playlist Name For Selected Tracks</h4>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="form-control" id="playlistNameToCreate" placeholder="Enter Playlist Name" />
+                    <select class="form-control" id="newPlaylistAccessibility">
+                        <option value="Public">Public</option>
+                        <option value="Private">Private</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" id="okPlaylistCreateModalBtn" data-dimiss="modal">OK</button>
+                    <button type="button" class="btn btn-default" id="cancelModalBtn" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="playlistsTable" style="display: none;"></div>
+    <div class="itemsContainer tableRow" id="itemsContainer"></div>
+</div>
+
+
+@section scripts
+{
+    <script id="popoverPlaylistTemplate" type="text/x-jQuery-tmpl">
+        <li style="display: block;">
+            <div class="popoverPlaylistBtn">${Name}</div>
+            <div class="playlistId hidden">${Id}</div>
+        </li>
+    </script>   
+
+    <script id="searchUserTemplate" type="text/x-jQuery-tmpl">
+        <div class="tableRow user">
+            <span class="user-photo" >
+                <img src="${Photo}" />
+            </span>
+            <a class="user-url" href="/UserProfile/Index/${Id}">${FirstName}  ${LastName}</a>
+        </div>
+    </script>
+
+    <script id="searchTrackTemplate" type="text/x-jQuery-tmpl">
+        <div class="tableRow draggable-item track vk-item">
+            <div class="glyphicon glyphicon-play btn btn-default track-play-btn"></div>            
+            <div class="track-description" data-title="${artist} ${title}">
+                <div class="track-info"><a href="#" data-toggle="modal" data-target="#infoModal"><span class="track-artist">${Artist}</span> - <span class="track-title">${Name}</span></a></div>
+            </div>
+            <button class="download-btn" style="margin-top:7px;"><i class="fa fa-cloud-download"></i></button>
+            <div class="track-duration">${Duration}</div>
+            <div style="display: none" class="track-url">${Url}</div>
+            <div style="display: none" class="thirdPartId">${ThirdPartId}</div>
+            <div style="display: none" class="ownerId">${OwnerId}</div>
+        </div>
+    </script>
+    
+    <script id="trackTemplate" type="text/x-jQuery-tmpl">
+        <div class="tableRow draggable-item track vk-item">
+            <div class="glyphicon glyphicon-play btn btn-default track-play-btn"></div>
+            <div class="track-description" data-title="${artist} ${title}">
+                <div class="track-info"><a href="#" data-toggle="modal" data-target="#infoModal"><span class="track-artist">${artist}</span> - <span class="track-title">${title}</span></a></div>
+            </div>
+            <button class="download-btn" style="margin-top:7px;"><i class="fa fa-cloud-download"></i></button>
+            <div class="track-duration">${duration}</div>
+            <div style="display: none" class="track-url">${url}</div>
+            <div style="display: none" class="thirdPartId">${id}</div>
+            <div style="display: none" class="ownerId">${owner_id}</div>
+        </div>
+    </script>
+    
+    <script id="trackInfoTemplate" type="text/x-JQuery-tmpl">
+        <div id="trackInfo">
+            <div class="tableRow" id="artistData">
+                <div class="descriptionPhoto">
+                    {{if ArtistImage != null}}
+                    <img src=${ArtistImage}>
+                    {{/if}}
+                </div>
+                <div class="infoDescription">
+                    <div class="trackTitle">
+                        {{if Title != null}}
+                        Title: <a href=${TrackLastfmUrl}>${Title}</a>
+                        {{/if}}
+                    </div>
+                    <div class="Artist">
+                        Artist:
+                        {{if Artist != null}}
+                        <a href=${ArtistLastfmUrl}>${Artist}</a>
+                        {{/if}}
+                    </div>
+                    {{if ArtistFans != 0}}
+                    <div>Fans count: ${ArtistFans}</div>
+                    {{/if}}
+
+                </div>
+            </div>
+            <div class="tableRow" id="albumData">
+                {{if AlbumCover != null}}
+                <div class="descriptionPhoto"><img src=${AlbumCover}></div>
+                {{/if}}
+                <div class="infoDescription">
+                    {{if AlbumTitle != null}}
+                    <div>Album: <a href="${AlbumLastfmUrl}">${AlbumTitle}</a></div>
+                    {{/if}}
+                    {{if AlbumFans != 0}}
+                    <div>Fans count: ${AlbumFans}</div>
+                    {{/if}}
+                    {{if AlbumRelease != null}}
+                    <div>Year: ${AlbumRelease}</div>
+                    {{/if}}
+                </div>
+            </div>
+            {{if Lyric!= null}}
+            <div class="tableRow panel panel-primary" id="lyricsData" style="display: block">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapseLyrics">
+                            Lyrics
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseLyrics" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="trackLyric"></div>
+                    </div>
+                </div>
+            </div>
+            {{/if}}
+
+            {{if Summary != null}}
+            <div class="tableRow panel panel-primary" id="summaryData" style="display: block">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapseSummary">
+                            Summary
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseSummary" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="trackSummary"></div>
+                    </div>
+                </div>
+            </div>
+            {{/if}}
+        </div>
+    </script>
+    
+    <script id="contextmenuTemplate" type="text/x-JQuery-tmpl">
+        <div class="tableRow">
+            <div id="${id}" class="contextMenuActionName">${name}</div>
+            <div class="contextMenuExpander"></div>
+        </div>
+    </script>
+    
+    <script id="subContextmenuTemplate" type="text/x-JQuery-tmpl">
+        <div class="tableRow">
+            <div class="contextMenuActionName">${name}</div>
+            <span class="playlistId" style="display: none">${id}</span>
+        </div>
+    </script>
+    
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.js"></script>
+    <script src="../../Scripts/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="../../Scripts/searchManager.js"></script>
+    <script type="text/javascript" src="../../Scripts/audioManager.js"></script>
+    <script type="text/javascript" src="../../Scripts/sliderController.js"></script>
+    <script type="text/javascript" src="../../Scripts/workWithSearch.js"></script>
+    <script type="text/javascript" src="../../Scripts/contextMenu.js"></script>
+    <script type="text/javascript" src="../../Scripts/progressBar.js"></script>
+}

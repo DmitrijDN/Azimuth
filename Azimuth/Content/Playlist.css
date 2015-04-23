@@ -1,0 +1,60 @@
+﻿#playlist-items-container {
+    width: 70%;
+    height: 100%;
+}
+
+#tracksArea {
+    height: 100%;
+}
+
+.playlistsContainer {
+    display: block;
+    float: left;
+    width: 23%;
+}
+
+div.playlist {
+    height: 120px;
+}
+
+.playlist-info {
+    font-size: 11px;
+    
+}
+
+.playlist:hover {
+    background-color: #FFD386;
+}
+
+.playlist-active {
+    background: #F9851F;
+}
+
+.playlist-divider {
+    border: none; /* Убираем границу */
+    background-color: gray; /* Цвет линии */
+    color: gray; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    margin: 10px 0;
+}
+
+.playlist-genres {
+    vertical-align: bottom;
+    height: 50%;
+}
+
+.playlist-logo {
+    float: left;
+    margin: 5px;
+    width: 100px;
+    height: 102px;
+}
+
+.playlist-title {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.playlist div {
+    padding-top: 2px
+}

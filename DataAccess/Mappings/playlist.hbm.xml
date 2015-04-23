@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Azimuth.DataAccess" namespace="Azimuth.DataAccess.Entities">
+  <class name="Playlist" table="Playlists">
+    <id name="Id" column="PlaylistsId">
+      <generator class="native"/>
+    </id>
+    <property name="Name" />
+    <property name="Accessibilty" type="AccessibiltyType"/>
+    <many-to-one name="Creator" column="CreatorId" />
+    <set name="Tracks" table="PlaylistTracks" lazy="true" cascade="save-update">
+      <key column="PlaylistId" />
+      <many-to-many column="TrackId" class="Track" />
+    </set>
+    <set name="PlaylistListeners" table="PlaylistListeners" cascade="save-update">
+      <key column="PlaylistId" />
+      <one-to-many class="PlaylistListener"/>
+    </set>
+    <set name="PlaylistLikes" table="Likes" cascade="save-update">
+      <key column="PlaylistId"/>
+      <one-to-many class="PlaylistLike"/>
+    </set>
+    <set name="Notifications" table="Notifications" cascade="all-delete-orphan">
+      <key column="RecentlyPlaylistId"/>
+      <one-to-many class="Notification"/>
+    </set>
+    <property name="Listened" />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest2" Id="427904ad-8b8f-4f1a-ae9c-60f7ea7efc93" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest2.b000e052-e95d-4af9-a854-3781b178302d.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="0c441517-e6aa-4dc7-8174-c613a3c89194" Version="1.1" Url="http://azimuth.apphb.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://azimuth.apphb.com/PublicPlaylists" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="c2c4c65e-a65b-4bc0-85ff-e7218917654f" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/4" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="5a4911e2-cb48-41f5-8dee-a105adbb0527" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="25da841e-b5a4-48f4-8a7d-5e2b11d69546" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/23" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="a06bb1cd-8008-46bd-b38f-b16a5995ca90" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/20" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="3d862e3e-5153-4dff-8f41-8ba83ad945d1" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/6" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="4775fca6-9954-427b-83f5-a8745d65b55c" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/17" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="91dcc6fd-3cf1-41bb-9660-61be7af496c9" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/12" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="e36a9e54-98fb-4287-a1a8-ab8015acec57" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/18" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="627c06cc-eaee-401b-9270-3acd42080134" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/22" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="0ba5820a-9a59-4516-a2ea-1e3f9bd63500" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/24" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="87c64c81-a19a-4972-8ddc-4f102fe52b2d" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/33" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="172a1dd4-a615-464b-a792-5484fadd848c" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/28" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="09b15b51-c57a-4ec6-850f-6bb4e896d9dd" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/15" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="11cd249c-adae-4a7c-bde9-a0ab699c0cdf" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/14" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="2a253839-52ed-460e-9cec-651dc434855f" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/13" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="620b1761-7ee7-4d36-8fd8-82749a861c76" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/31" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="a07714ef-99c4-4add-90f6-5c959a80aae0" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/29" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="0357d1fc-eb28-43ec-98c8-6d1fff1726a6" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/21" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="fdb46c1d-0b97-4fff-9be2-24a983e3fb2c" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/5" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="b07e6443-53eb-47a1-b8a7-e3207feeeba1" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/40" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="eba9b567-0bff-4984-be04-e11c608568cc" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/30" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="c55612f5-81ec-47d8-a039-fdf6483a34cc" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/39" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="ced480ae-69a4-45c7-b370-2e9f2497cd2f" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/38" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="f744d217-c39d-46e3-887b-751493701d70" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/35" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="c1526b36-595c-40b2-aa65-e0ed9f03bbfc" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/image/10" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="ea01ab5b-29f8-4614-90eb-5297797556eb" Version="1.1" Url="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="eee89614-0160-4f36-827f-b05f97d100c9" Version="1.1" Url="http://azimuth.apphb.com/PublicPlaylists/_PlaylistTracks" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="curPlaylist" Value="%7B%22PlaylistId%22%3A%224%22%2C%22PlaylistName%22%3A%22Dimon4ik's+playlist%22%2C%22LikesCount%22%3A%222%22%2C%22FavouritesCount%22%3A%222%22%7D" RecordedValue="%7B%22PlaylistId%22%3A%224%22%2C%22PlaylistName%22%3A%22Dimon4ik's+playlist%22%2C%22LikesCount%22%3A%222%22%2C%22FavouritesCount%22%3A%222%22%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="54e4f847-f184-4f12-b796-417fed37535a" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/genres" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="id" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam40.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam45.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam54.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam63.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam68.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam77.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam86.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?provider=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="468ef90b-e3fc-4710-afb0-4e23db766d5e" Version="1.1" Url="http://azimuth.apphb.com/signalr/negotiate" ThinkTime="90" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1417007630581" RecordedValue="1417007630581" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c5c1339c-aec4-47b4-b42c-5fda98895d10" Version="1.1" Url="http://azimuth.apphb.com/PublicPlaylists" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://azimuth.apphb.com/PublicPlaylists#" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="c4363df4-8d7b-4c44-bd3d-ea17de11f9d9" Version="1.1" Url="http://azimuth.apphb.com/PublicPlaylists" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://azimuth.apphb.com/PublicPlaylists#" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="c064c19b-85db-4858-91d2-764a6b614a12" Version="1.1" Url="http://azimuth.apphb.com/signalr/start" ThinkTime="25" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Content-Type" Value="application/json; charset=UTF-8" />
+        <Header Name="Accept" Value="text/plain, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="transport" Value="webSockets" RecordedValue="webSockets" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clientProtocol" Value="1.4" RecordedValue="1.4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionToken" Value="XbrGgrvHBmq0qJTuA8q0l9eJ8zxii4O49N3ixnGA7T9RZUxsOFVjViL2kjVo6N0x3akMFKzjKBMZiDMYxPCw6ZdI1%2Bj6nk%2FLMFcNx20HOckU7CeWFqpwuDYC9qGQrj0w" RecordedValue="XbrGgrvHBmq0qJTuA8q0l9eJ8zxii4O49N3ixnGA7T9RZUxsOFVjViL2kjVo6N0x3akMFKzjKBMZiDMYxPCw6ZdI1%2Bj6nk%2FLMFcNx20HOckU7CeWFqpwuDYC9qGQrj0w" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="connectionData" Value="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" RecordedValue="%5B%7B%22name%22%3A%22notificationshub%22%7D%5D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="_" Value="1417007630582" RecordedValue="1417007630582" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="5b8aa6f1-6f16-4f52-8284-efc580ff8852" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="28fe9fc7-3e63-46d8-a090-80ff7e6d63d7" Version="1.1" Url="http://azimuth.apphb.com/fonts/glyphicons-halflings-regular.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="0b424f11-5b3e-4510-9f95-d5e9febd3ab0" Version="1.1" Url="http://azimuth.apphb.com/api/playlists/raiselistened" ThinkTime="7" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="id" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="1b07c378-5db1-4ed9-b149-ca31fd9a5540" Version="1.1" Url="http://azimuth.apphb.com/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam40.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22302949464%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22302949464%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="d99ed445-0edb-4e6d-b0cd-e4077f64af52" Version="1.1" Url="http://azimuth.apphb.com/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam45.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22302074531%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22297219829%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22302074531%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22297219829%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="0c8a6a27-3c2f-43b7-b89d-d1a55a62dec3" Version="1.1" Url="http://cs9-6v4.vk.me/p6/ae0b8578c4d29d.mp3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="maHsncOiM65rqMXWf4gHHVv750NC4xpgwfyXeC4pojARDNuiHBc-rc8EzTIznkxidza27QGNmhOvkxX-rhFVQ7aQ-OA4ShI" RecordedValue="maHsncOiM65rqMXWf4gHHVv750NC4xpgwfyXeC4pojARDNuiHBc-rc8EzTIznkxidza27QGNmhOvkxX-rhFVQ7aQ-OA4ShI" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="8fd94129-bed2-4b81-bab1-50606643300c" Version="1.1" Url="http://azimuth.apphb.com/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam54.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22297219829%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22297219216%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22297219829%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22297219216%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="f5edb5d1-006e-4914-8ff5-8f16bfa0b971" Version="1.1" Url="http://cs536611.vk.me/u32543796/audios/0de532c4197b.mp3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="eEVzj759I4FtNwW-Mrt_altCkxTEdv4zXiSmKTrk_KhB_pRMrXqEOjL8ptIRaFBgvpejC32qjccVCqIi5f-DZf2r445STug" RecordedValue="eEVzj759I4FtNwW-Mrt_altCkxTEdv4zXiSmKTrk_KhB_pRMrXqEOjL8ptIRaFBgvpejC32qjccVCqIi5f-DZf2r445STug" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="94f2f5a9-2af1-442b-aea8-7d38d8e3dbc8" Version="1.1" Url="http://azimuth.apphb.com/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam63.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22296859366%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22296859366%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="61184f8e-1637-4226-a380-1e5df11b9f0b" Version="1.1" Url="http://azimuth.apphb.com/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam68.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22289243152%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22289242212%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22289243152%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22289242212%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="ee2359c0-a2b4-42ac-8197-c1dbff9c9e02" Version="1.1" Url="http://cs4999.vk.me/u732589/audios/ba45ea6f5a20.mp3" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="BXubOmwA1koKpCDFxzPGaHOvLlf2NizE6Y59vulEsJkS1qfKfYZQE_6jJ3DwlnoX7LoVl0NVVFArHKQEJrAkn-_S-tHogQo" RecordedValue="BXubOmwA1koKpCDFxzPGaHOvLlf2NizE6Y59vulEsJkS1qfKfYZQE_6jJ3DwlnoX7LoVl0NVVFArHKQEJrAkn-_S-tHogQo" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="8d5cf273-d515-48a6-8cc5-e780b46c4f6b" Version="1.1" Url="http://azimuth.apphb.com/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam77.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22289242212%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22289237172%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22289242212%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22289237172%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="a0f245af-05d9-4e5c-ac4f-b93804779b0b" Version="1.1" Url="http://cs9-1v4.vk.me/p14/e80ca46f056b32.mp3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="83se2OV9qzcKsro1kTfUw-awaNxFdqp27HbjV6aEJm-kpe2Ize8aBvDz797LK44QhzuBK8mnz_4YdL4D1VjxshBq6nM1ozs" RecordedValue="83se2OV9qzcKsro1kTfUw-awaNxFdqp27HbjV6aEJm-kpe2Ize8aBvDz797LK44QhzuBK8mnz_4YdL4D1VjxshBq6nM1ozs" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="ecc5e785-b35d-4e14-a729-f734a794f87e" Version="1.1" Url="http://azimuth.apphb.com/api/usertracks/trackurl" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="provider" Value="Vkontakte" RecordedValue="Vkontakte" CorrelationBinding="{{QueryStringParam86.provider}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="trackData" Value="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22289237172%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22289228891%22%7D%5D%7D" RecordedValue="%7B%22trackData%22%3A%5B%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22289237172%22%7D%2C%7B%22ownerId%22%3A%227496840%22%2C%22thirdPartId%22%3A%22289228891%22%7D%5D%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="10c12649-1199-4966-9926-8148e83a227a" Version="1.1" Url="http://cs4728.vk.me/u114828558/audios/198f6e6e5fa7.mp3" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="Referer" Value="http://azimuth.apphb.com/PublicPlaylists" />
+        <Header Name="Pragma" Value="getIfoFileURI.dlna.org" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="extra" Value="dvH43H4I3vJj5bv4LZdkRY-s48nrKl8SHc6vYkM56PG9s6wfHmFMSF6SVCwrdsyoDlytWIge8vzfn7N3Pk7ex60-s1gexSk" RecordedValue="dvH43H4I3vJj5bv4LZdkRY-s48nrKl8SHc6vYkM56PG9s6wfHmFMSF6SVCwrdsyoDlytWIge8vzfn7N3Pk7ex60-s1gexSk" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
